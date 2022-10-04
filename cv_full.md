@@ -7,13 +7,13 @@
 
 ------
 
-### Profil {#profile}
+### ![profile](https://cdn-icons-png.flaticon.com/32/3135/3135707.png) Profil {#profile}
 
 Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps
 
 ------
 
-### 💻️ Compétences {#skills}
+### ![skills](https://cdn-icons-png.flaticon.com/32/3281/3281142.png) Skills {#skills}
 
 * Développement
   : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
@@ -26,7 +26,7 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 -------
 
-### Technical {#technical}
+### ![tech](https://cdn-icons-png.flaticon.com/32/3067/3067451.png) Technical {#technical}
 
 1. XHTML
 1. CSS
@@ -40,7 +40,7 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 ------
 
-### Experience {#experience}
+### Experience ![exp](https://cdn-icons-png.flaticon.com/32/3325/3325009.png) {#experience}
 
 Initrode Conglomerated
 : *Principal and Creative Lead*
@@ -120,8 +120,18 @@ Gizmonic Institute Company (GIM)
 
 ------
 
+### Education {#experience}
+
+School
+: *Principal and Creative Lead*
+  __2004-2005__
+  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+
+
+------
+
 ### Footer {#footer}
 
-![test-img](https://cdn-icons-png.flaticon.com/32/2409/2409387.png) Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
+![footer](https://cdn-icons-png.flaticon.com/16/2409/2409387.png) Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
 
 ------
