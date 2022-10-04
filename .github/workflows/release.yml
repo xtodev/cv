@@ -1,12 +1,12 @@
 name: CI
-
-on: push
-
+on:
+  push:
+    branches: [ main ]
 jobs:
-  myjob:
-    runs-on: ubuntu-18.04
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: there4/markdown-resume:2.3.1
     steps:
-    - uses: actions/checkout@v1
-    - uses: ./.github/actions/my-action
-    - uses: docker://there4/markdown-resume:2.3.1
-      run: ./bin/md2resume pdf --template swissen cv_long.md .
+      - name: CV pdf
+        run: ./bin/md2resume pdf --template swissen cv_long.md .
