@@ -20,7 +20,9 @@ jobs:
         with:
           token: ${{ github.token }}
           tag: latest
-          assets: '*.html *.pdf'
+          assets: |
+            *.pdf
+            *.html
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -40,6 +42,16 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./cv_long.pdf
           asset_name: CV_Touron_Xavier_Full.pdf
+          asset_content_type: application/pdf
+      - name: Release CV full HTML
+        id: upload-cvfull-html
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./cv_long.html
+          asset_name: CV_Touron_Xavier_Full.html
           asset_content_type: application/pdf
       - name: Deploy CV full HTML to git pages
         uses: ./
