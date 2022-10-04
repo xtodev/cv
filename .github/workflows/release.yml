@@ -11,5 +11,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: echo workspace path
+        run: echo "workspace path = ${GITHUB_WORKSPACE}"
+      - name: LS workspace
+        run: ls -lha ${GITHUB_WORKSPACE}
       - name: Make pdf (CV long)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md /tmp/CV_Touron_Xavier_Full.pdf
+        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md CV_Touron_Xavier_Full.pdf
