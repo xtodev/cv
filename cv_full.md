@@ -2,24 +2,24 @@
 ## Développeur backend - DevOps
 
 > [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf)  
-> [contact [at] xtodev.fr](contact [at] xtodev.fr)  
+> [contact@xtodev.fr](contact@xtodev.fr)   
 > 07.66.65.32.68
 
 ------
 
-### Profile {#profile}
+### Profil {#profile}
 
-Naviguer entre les missions de développement back et celles orientées Ops afin de petit à petit effacer cette barrière qui existe entre les deux pour devenir devOps
+Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps
 
 ------
 
-### Skills {#skills}
+### 💻️ Compétences {#skills}
 
 * Développement
   : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
 
 * Ops
-  : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka, ca me connaît.
+  : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka
 
 * DevOps
   : Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions
