@@ -46,6 +46,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Fetch Release cv_long
+      uses: dsaltares/fetch-gh-release-asset@master
+      with:
+        repo: 'dsaltares/godot-wild-jam-18'
+        version: 'tags/${{ github.run_id }}'
+        file: 'CV_Touron_Xavier_Full.html'
+        target: 'index.html'
+        token: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to Github pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
