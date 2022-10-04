@@ -15,14 +15,14 @@ jobs:
         run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
       - name: Make html (CV long)
         run: md2resume html --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
-      - name: Delete old release assets
-        uses: mknejp/delete-release-assets@v1
-        with:
-          token: ${{ github.token }}
-          tag: latest
-          assets: |
-            *.pdf
-            *.html
+#      - name: Delete old release assets
+#        uses: mknejp/delete-release-assets@v1
+#        with:
+#          token: ${{ github.token }}
+#          tag: latest
+#          assets: |
+#            *.pdf
+#            *.html
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
