@@ -29,8 +29,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: latest
-          release_name: CV
+          tag_name: ${{ github.run_id }}
+          release_name: latest
           draft: false
           prerelease: false
       - name: Release CV full PDF
