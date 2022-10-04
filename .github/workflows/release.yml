@@ -6,7 +6,7 @@ jobs:
     container:
       image: there4/markdown-resume:2.3.1
       options: --user root
-       volumes:
+      volumes:
         - out:/mnt/out
     steps:
       - name: Checkout repository
