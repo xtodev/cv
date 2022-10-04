@@ -3,10 +3,13 @@ on: push
 jobs:
   container-test-job:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
     container:
       image: there4/markdown-resume:2.3.1
       volumes:
-        - out:/mnt/out
+        - $GITHUB_WORKSPACE:/mnt/git
     steps:
       - name: CV pdf
-        run: md2resume pdf --template swissen cv_long.md /mnt/out/CV_Touron_Xavier_Full.pdf
+        run: md2resume pdf --template swissen /mnt/git/cv_long.md /mnt/git/CV_Touron_Xavier_Full.pdf
