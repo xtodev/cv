@@ -6,7 +6,7 @@ jobs:
     container:
       image: there4/markdown-resume:2.3.1
       volumes:
-        - ${PWD}:/mnt/out
+        - out:/mnt/out
     steps:
       - name: CV pdf
         run: md2resume pdf --template swissen cv_long.md /mnt/out/CV_Touron_Xavier_Full.pdf
