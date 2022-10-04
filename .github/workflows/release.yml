@@ -9,10 +9,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Make pdf (CV long)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
-      - name: Make html (CV long)
-        run: md2resume html --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
+      - name: Make pdf (CV full)
+        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_full.md .
+      - name: Make html (CV full)
+        run: md2resume html --template swissen ${GITHUB_WORKSPACE}/cv_full.md .
+      - name: Make pdf (CV short)
+        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv.md .
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -30,8 +32,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./cv_long.pdf
+          asset_path: ./cv_full.pdf
           asset_name: CV_Touron_Xavier_Full.pdf
+          asset_content_type: application/pdf
+      - name: Release CV short PDF
+        id: upload-cvshort-pdf
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./cv.pdf
+          asset_name: CV_Touron_Xavier.pdf
           asset_content_type: application/pdf
       - name: Release CV full HTML
         id: upload-cvfull-html
@@ -40,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./cv_long.html
+          asset_path: ./cv_full.html
           asset_name: CV_Touron_Xavier_Full.html
           asset_content_type: application/pdf
   deploy:
@@ -49,7 +61,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Fetch Release cv_long
+      - name: Fetch Release cv_full
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'xtodev/cv'
