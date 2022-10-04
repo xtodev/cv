@@ -1,7 +1,7 @@
 name: CI
 on: push
 jobs:
-  make-and-deploy:
+  make:
     runs-on: ubuntu-latest
     container:
       image: there4/markdown-resume:2.3.1
@@ -43,6 +43,9 @@ jobs:
           asset_path: ./cv_long.html
           asset_name: CV_Touron_Xavier_Full.html
           asset_content_type: application/pdf
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to Github pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
