@@ -1,28 +1,28 @@
-# Craig Davis
-## Senior PHP Developer, UX Director
+# Xavier Touron
+## Développeur backend - DevOps
 
-> [Download PDF](resume.pdf)  
-> [craig@there4development.com](craig@there4development.com)  
-> (999) 888-7777
+> [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf)  
+> [contact [at] xtodev.fr](contact [at] xtodev.fr)  
+> 07.66.65.32.68
 
 ------
 
 ### Profile {#profile}
 
-Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
+Naviguer entre les missions de développement back et celles orientées Ops afin de petit à petit effacer cette barrière qui existe entre les deux pour devenir devOps
 
 ------
 
 ### Skills {#skills}
 
-* Web Design
-  : Assertively exploit wireless initiatives rather than synergistic core competencies.
+* Développement
+  : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
 
-* Interface Design
-  : Credibly streamline mission-critical value with multifunctional functionalities.
+* Ops
+  : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka, ca me connaît.
 
-* Project Direction
-  : Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+* DevOps
+  : Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions
 
 -------
 
