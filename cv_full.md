@@ -2,7 +2,7 @@
 ## Développeur backend - DevOps
 
 > [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf)  
-> [contact@xtodev.fr](contact@xtodev.fr)   
+> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > 07.66.65.32.68
 
 ------
@@ -122,6 +122,6 @@ Gizmonic Institute Company (GIM)
 
 ### Footer {#footer}
 
-Craig Davis -- [craig@there4development.com](craig@there4development.com) -- (999) 888-7777
+![test-img](https://cdn-icons-png.flaticon.com/32/2409/2409387.png) Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
 
 ------
