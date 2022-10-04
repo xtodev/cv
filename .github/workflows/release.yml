@@ -6,8 +6,8 @@ jobs:
     container:
       image: there4/markdown-resume:2.3.1
       options: --user root
-#       volumes:
-#        - out:/mnt/out
+       volumes:
+        - out:/mnt/out
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -15,5 +15,9 @@ jobs:
         run: echo "workspace path = ${GITHUB_WORKSPACE}"
       - name: LS workspace
         run: ls -lha ${GITHUB_WORKSPACE}
+      - name: LS out folder
+        run: ls -lha /mnt/out
       - name: Make pdf (CV long)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md CV_Touron_Xavier_Full.pdf
+        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md /mnt/out/CV_Touron_Xavier_Full.pdf
+      - name: LS out folder
+        run: ls -lha /mnt/out
