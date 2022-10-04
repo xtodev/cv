@@ -7,13 +7,13 @@
 
 ------
 
-### ![profile](https://cdn-icons-png.flaticon.com/32/3135/3135707.png) Profil {#profile}
+### ![profile](https://cdn-icons-png.flaticon.com/24/3135/3135707.png) Profil {#profile}
 
 Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps
 
 ------
 
-### ![skills](https://cdn-icons-png.flaticon.com/32/3281/3281142.png) Skills {#skills}
+### ![skills](https://cdn-icons-png.flaticon.com/24/3281/3281142.png) Skills {#skills}
 
 * Développement
   : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
@@ -26,7 +26,7 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 -------
 
-### ![tech](https://cdn-icons-png.flaticon.com/32/3067/3067451.png) Technical {#technical}
+### ![tech](https://cdn-icons-png.flaticon.com/24/3067/3067451.png) Technical {#technical}
 
 1. XHTML
 1. CSS
@@ -40,7 +40,7 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 ------
 
-### Experience ![exp](https://cdn-icons-png.flaticon.com/32/3325/3325009.png) {#experience}
+### Experience ![exp](https://cdn-icons-png.flaticon.com/24/3325/3325009.png) {#experience}
 
 Initrode Conglomerated
 : *Principal and Creative Lead*
@@ -132,6 +132,6 @@ School
 
 ### Footer {#footer}
 
-![footer](https://cdn-icons-png.flaticon.com/16/2409/2409387.png) Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
+<img src="https://cdn-icons-png.flaticon.com/32/2409/2409387.png" style="vertical-align: middle;"> Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
 
 ------
