@@ -35,13 +35,9 @@ jobs:
           asset_path: ./cv_long.pdf
           asset_name: CV_Touron_Xavier_Full.pdf
           asset_content_type: application/pdf
-      - name: Release CV full HTML
-        id: upload-cvfull-html
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy CV full HTML to git pages
+        uses: ./
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./cv_long.html
-          asset_name: index.html
-          asset_content_type: plain/text
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          remote_url: https://github.com/appleboy/gh-pages-action.git
