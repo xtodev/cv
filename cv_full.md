@@ -1,7 +1,7 @@
 # Xavier Touron
 ## Développeur backend - DevOps
 
-> [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf)  
+> <a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf" target=_blank><img src="https://cdn-icons-png.flaticon.com/24/8450/8450916.png" style="vertical-align: middle;">Télécharger</a>)  
 > [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > 07.66.65.32.68
 
@@ -122,16 +122,18 @@ Gizmonic Institute Company (GIM)
 
 ### Education {#experience}
 
+Engineer School
+: *Principal and Creative Lead*
+  __2004-2008__
+
 School
 : *Principal and Creative Lead*
-  __2004-2005__
-  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
-
+  __2000-2004__
 
 ------
 
 ### Footer {#footer}
 
-<img src="https://cdn-icons-png.flaticon.com/32/2409/2409387.png" style="vertical-align: middle;"> Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
+<img src="https://cdn-icons-png.flaticon.com/24/2409/2409387.png" style="vertical-align: middle;"> Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
 
 ------
