@@ -21,12 +21,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: latest
+          release_name: CV
           draft: false
           prerelease: false
       - name: Release CV full PDF
-        id: upload-release-asset
+        id: upload-cvfull-pdf
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,7 +36,7 @@ jobs:
           asset_name: CV_Touron_Xavier_Full.pdf
           asset_content_type: application/pdf
       - name: Release CV full HTML
-        id: upload-release-asset
+        id: upload-cvfull-html
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
