@@ -45,10 +45,10 @@ jobs:
           asset_path: ./cv_long.html
           asset_name: CV_Touron_Xavier_Full.html
           asset_content_type: application/pdf
-    - name: Force push to gh-pages branch for github pages
-      uses: ad-m/github-push-action@v0.5.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        force: true
-        directory: ${GITHUB_WORKSPACE}
+      - name: Force push to gh-pages branch for github pages
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          force: true
+          directory: ${GITHUB_WORKSPACE}
