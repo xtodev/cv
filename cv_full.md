@@ -1,7 +1,7 @@
 # Xavier Touron
 ## Développeur backend - DevOps
 
-> <a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf" target=_blank><img src="https://cdn-icons-png.flaticon.com/24/8450/8450916.png" style="vertical-align: middle;">Télécharger</a>)  
+> [<img src="https://cdn-icons-png.flaticon.com/24/8450/8450916.png" style="vertical-align: middle;">Télécharger](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf)
 > [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > 07.66.65.32.68
 
