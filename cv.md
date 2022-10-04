@@ -2,7 +2,7 @@
 ## Développeur backend - DevOps
 
 > [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)  
-> [contact [at] xtodev.fr](contact [at] xtodev.fr)  
+> [contact@xtodev.fr](contact@xtodev.fr)  
 > 07.66.65.32.68
 
 ------
