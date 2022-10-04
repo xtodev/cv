@@ -44,6 +44,7 @@ jobs:
           asset_name: CV_Touron_Xavier_Full.html
           asset_content_type: application/pdf
   deploy:
+    needs: make
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
