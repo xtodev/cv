@@ -11,19 +11,27 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: echo workspace path
-        run: echo "workspace path = ${GITHUB_WORKSPACE}"
-      - name: LS workspace
-        run: ls -lha ${GITHUB_WORKSPACE}
-      - name: LS out folder
-        run: ls -lha /mnt/out
-      - name: test file
-        run: touch /mnt/out/testfile
-      - name: test file2
-        run: touch ${GITHUB_WORKSPACE}/testfile2
       - name: Make pdf (CV long)
         run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
-      - name: LS out folder
-        run: ls -lha /mnt/out
       - name: LS workspace
         run: ls -lha ${GITHUB_WORKSPACE}
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./cv_long.pdf
+          asset_name: CV_Touron_Xavier_Full.pdf
+          asset_content_type: application/pdf
