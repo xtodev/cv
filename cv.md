@@ -1,49 +1,73 @@
-[![](https://img.shields.io/badge/PDF-Download-1abc9c?style=for-the-badge)](#) &nbsp; [![](https://img.shields.io/badge/leonidkoftun-2867B2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-
 # Xavier Touron
+## Développeur backend - DevOps
 
-[contact [at] xtodev.fr ](#) // Montpellier, France
+> [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)  
+> [contact [at] xtodev.fr](contact [at] xtodev.fr)  
+> 07.66.65.32.68
 
-## Professional Experience
+------
 
-### Job title - _Montpellier, Février 2022 - present_
+### Profile {#profile}
 
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
+Naviguer entre les missions de développement back et celles orientées Ops afin de petit à petit effacer cette barrière qui existe entre les deux pour devenir devOps
 
-### Job title - _Montpellier, Janvier 2020 - Février 2022_
+------
 
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
+### Skills {#skills}
 
-### Job title - _Montpellier, Février 2017 - Janvier 2020_
+* Développement
+  : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
 
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
+* Ops
+  : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka, ca me connaît.
 
-## Education 
+* DevOps
+  : Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions
 
-### Studies, _Town, July 2013_
+-------
 
-Describe what is it
+### Technical {#technical}
 
-### Studies, _Town, July 2013_
+1. XHTML
+1. CSS
+1. Javascript
+1. Jquery
+1. PHP
+1. CVS / Subversion
+1. OS X
+1. Windows XP/Vista
+1. Linux
 
-Describe what is it
+------
 
-### Studies, _Town, July 2013_
+### Experience {#experience}
 
-Describe what is it
+Initrode Conglomerated
+: *Principal and Creative Lead*
+  __2004-2005__
+  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
 
-## Loisirs
+Gizmonic Institute Company (GIM)
+: *Lead Web Designer*
+  __2001-2004__
+  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
 
-interests
+
+Initrode Conglomerated
+: *Principal and Creative Lead*
+  __2004-2005__
+  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+
+Gizmonic Institute Company (GIM)
+: *Lead Web Designer*
+  __2001-2004__
+  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
+
+
+------
+
+### Footer {#footer}
+
+Xavier Touron -- [contact [at] xtodev.fr](contact [at] xtodev.fr) -- (999) 888-7777
+
+------
