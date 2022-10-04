@@ -22,7 +22,7 @@ jobs:
       - name: test file2
         run: touch ${GITHUB_WORKSPACE}/testfile2
       - name: Make pdf (CV long)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md /mnt/out/CV_Touron_Xavier_Full.pdf
+        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_long.md .
       - name: LS out folder
         run: ls -lha /mnt/out
       - name: LS workspace
