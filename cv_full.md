@@ -4,7 +4,7 @@
 > [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
 > <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68
->
+> test
 
 ------
 
@@ -31,13 +31,16 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 1. Java / Kotlin / C#
 1. Kubernetes, Helm
-1. Jenkins / Concourse
+1. Jenkins, Concourse
 1. Springboot, Kafka streams
 1. Stack ELK / EFK
 1. Python / Bash Shell
 1. Clean Archi
-1. Kafka | Nifi
+1. Kafka, Nifi
 1. AAAA
+1. skill1
+1. skill1
+1. skill1
 
 ------
 
@@ -129,6 +132,6 @@ School
 
 ### Footer {#footer}
 
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="24" width="24" style="vertical-align: middle;"></a>  <a href="#" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="24" width="24" style="vertical-align: middle;"></a> 
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="#" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a> 
 
 ------
