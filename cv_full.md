@@ -10,14 +10,14 @@
 
 ### ![profile](https://cdn-icons-png.flaticon.com/24/3135/3135707.png) Profil {#profile}
 
-Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps
+Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps. Une envie constante d'apprendre de nouvelles technos.
 
 ------
 
 ### ![skills](https://cdn-icons-png.flaticon.com/24/3281/3281142.png) Skills {#skills}
 
 * Développement
-  : Je développe des applications backend en Java, C# ou PHP. Les APIs REST sont mon sujet de prédilection.
+  : Je développe des applications backend, avec une certaine affinité pour les APIs REST.
 
 * Ops
   : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka
@@ -37,25 +37,32 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 1. Python / Bash Shell
 1. Clean Archi
 1. Kafka, Nifi
-1. AAAA
-1. skill1
-1. skill1
-1. skill1
+1. RegEx
+1. Clean Archi
+1. Prometheus, Grafana
+1. RegEx
 
 ------
 
 ### ![exp](https://cdn-icons-png.flaticon.com/24/3325/3325009.png) Missions {#experience}
 
-Initrode Conglomerated
-: *Principal and Creative Lead*
-  __2004-2005__
+Pole-Emploi
+: *Equipe de centralisation des logs (OPS et DevOps)*
+  __Février 2022 - Aujourd'hui__
   Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
-
-Gizmonic Institute Company (GIM)
-: *Lead Web Designer*
-  __2001-2004__
   Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
 
+SADA Assurances
+: *Développeur Java, Kotlin*
+  __Août 2020 - Janvier 2022__
+  - Développement d'une API back (sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, etc..) via des templates au format Word ou Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l'authentification via Auth0.
+  - Développement d'une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d'exporter toutes les données (ainsi que leut durée de conservation) d'un individu.
+  - Correction de nombreuses failles de sécurité (découvertes via un audit) dans le code source java des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions...
+  - MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité des actions sur les différentes APIs dans le cadre du RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible) de certains projets.
+  *Environnement technique et fonctionnel*
+  - Développement : Java/Kotlin, Springboot, Jasper/Aspose, Clean Architecture, MongoDB, RabbitMQ, Postman, OpenAPI, Gradle/Maven, DBeaver, Robo3T
+  - DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)
+  - Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipes de 4 à 6 personnes
 
 Initrode Conglomerated
 : *Principal and Creative Lead*
