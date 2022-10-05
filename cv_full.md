@@ -69,12 +69,6 @@ Initrode Conglomerated
   __2004-2005__
   Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
 
-Gizmonic Institute Company (GIM)
-: *Lead Web Designer*
-  __2001-2004__
-  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
-
-
 Initrode Conglomerated
 : *Principal and Creative Lead*
   __2004-2005__
@@ -134,6 +128,6 @@ School
 
 ### Footer {#footer}
 
-<img src="https://cdn-icons-png.flaticon.com/24/2409/2409387.png" style="vertical-align: middle;"> Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="24" width="24" style="vertical-align: middle;"></a>  <a href="#" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="24" width="24" style="vertical-align: middle;"></a> 
 
 ------
