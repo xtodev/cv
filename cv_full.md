@@ -2,8 +2,9 @@
 ## Développeur backend - DevOps
 
 > [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
-> <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;">[contact@xtodev.fr](mailto:contact@xtodev.fr)   
-> <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68<br>
+> <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
+> <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68
+>
 
 ------
 
