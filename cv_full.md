@@ -1,7 +1,7 @@
 # Xavier Touron
 ## Développeur backend - DevOps
 
-> [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)
+> [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
 > [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > 07.66.65.32.68
 
@@ -40,7 +40,7 @@ Navigue entre les missions de développement backend et les missions Ops afin de
 
 ------
 
-### Experience ![exp](https://cdn-icons-png.flaticon.com/24/3325/3325009.png) {#experience}
+### ![exp](https://cdn-icons-png.flaticon.com/24/3325/3325009.png) Missions {#experience}
 
 Initrode Conglomerated
 : *Principal and Creative Lead*
