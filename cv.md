@@ -1,8 +1,8 @@
 # Xavier Touron
 ## Développeur backend - DevOps
 
-> [Télécharger en PDF](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)  
-> [contact@xtodev.fr](mailto:contact@xtodev.fr) 
+> [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
+> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > 07.66.65.32.68
 
 ------
@@ -16,7 +16,7 @@ Naviguer entre les missions de développement back et celles orientées Ops afin
 ### Skills {#skills}
 
 * Développement
-  : Je développe des applications backend en Java, C# ou PHP. Les APIs Rest sont mon sujet de prédilection.
+  : Je développe des applications backend en Java, C# ou PHP. Les APIs REST sont mon sujet de prédilection.
 
 * Ops
   : Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d'un topic Kafka, ca me connaît.
@@ -28,14 +28,14 @@ Naviguer entre les missions de développement back et celles orientées Ops afin
 
 ### Technical {#technical}
 
-1. XHTML
-1. CSS
-1. Javascript
-1. Jquery
-1. PHP
-1. CVS / Subversion
+1. Java / Kotlin / C#
+1. Kubernetes, Helm
+1. Jenkins / Concourse
+1. Springboot
+1. Stack ELK / EFK
+1. Python / Bash Shell
 1. OS X
-1. Windows XP/Vista
+1. Kafka
 1. Linux
 
 ------
