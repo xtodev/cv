@@ -4,7 +4,6 @@
 > [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
 > <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
 > <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68
-> test
 
 ------
 
@@ -55,11 +54,11 @@ Pole-Emploi
 SADA Assurances
 : *Développeur Java, Kotlin*
   __Août 2020 - Janvier 2022__
-  - Développement d'une API back (sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, etc..) via des templates au format Word ou Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l'authentification via Auth0.<br>
-  - Développement d'une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d'exporter toutes les données (ainsi que leut durée de conservation) d'un individu.<br>
-  - Correction de nombreuses failles de sécurité (découvertes via un audit) dans le code source java des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions...<br>
+  - Développement d'une API back (sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, etc..) via des templates au format Word ou Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l'authentification via Auth0.<br><br>
+  - Développement d'une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d'exporter toutes les données (ainsi que leut durée de conservation) d'un individu.<br><br>
+  - Correction de nombreuses failles de sécurité (découvertes via un audit) dans le code source java des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions...<br><br>
   - MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité des actions sur les différentes APIs dans le cadre du RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible) de certains projets.<br><br>
-  *Environnement technique et fonctionnel*<br>
+  **Environnement technique et fonctionnel**<br>
   - Développement : Java/Kotlin, Springboot, Jasper/Aspose, Clean Architecture, MongoDB, RabbitMQ, Postman, OpenAPI, Gradle/Maven, DBeaver, Robo3T<br>
   - DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)<br>
   - Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipes de 4 à 6 personnes
