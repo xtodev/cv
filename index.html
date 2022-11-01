@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Xavier Touron | Développeur backend - DevOps</title>
+<title>Xavier Touron | Ingénieur Développement backend - DevOps</title>
 <style type="text/css">
 
 article,
@@ -635,7 +635,7 @@ ul li dt {
     <div class="resume">
         <h1>Xavier Touron</h1>
 
-<h2>Développeur backend - DevOps</h2>
+<h2>Ingénieur Développement backend - DevOps</h2>
 
 <blockquote>
   <p><a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf">PDF (Complet)</a> <a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf">PDF (1 page)</a><br>
@@ -647,7 +647,7 @@ ul li dt {
 
 <h3 id="profile"><img src="https://cdn-icons-png.flaticon.com/24/3135/3135707.png" alt="profile" /> Profil</h3>
 
-<p>Navigue entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps. Une envie constante d&#8217;apprendre de nouvelles technos.</p>
+<p>Oscille entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps. Une envie insatiable de découvrir et d&#8217;apprendre de nouvelles technologies.</p>
 
 <hr />
 
@@ -659,30 +659,30 @@ ul li dt {
 <dd>Je développe des applications backend, avec une certaine affinité pour les APIs REST.</dd>
 </dl></li>
 <li><dl>
-<dt>Ops</dt>
-<dd>Maintenir une stack Kubernetes, déterminer le nombre de nodes Elasticsearch ou encore le nombre de partitions d&#8217;un topic Kafka</dd>
+<dt>Infra (Ops)</dt>
+<dd>Je déploie des stacks EFK sur Kubernetes, j&#8217;administre des clusters Elasticsearch, Kafka, Nifi avec des alertes sous Prometheus.</dd>
 </dl></li>
 <li><dl>
 <dt>DevOps</dt>
-<dd>Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions</dd>
+<dd>Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions.</dd>
 </dl></li>
 </ul>
 
 <hr />
 
-<h3 id="technical"><img src="https://cdn-icons-png.flaticon.com/24/3067/3067451.png" alt="tech" /> Technical</h3>
+<h3 id="technical"><img src="https://cdn-icons-png.flaticon.com/24/3067/3067451.png" alt="tech" /> Technos</h3>
 
 <ol>
 <li>Java / Kotlin / C#</li>
 <li>Kubernetes, Helm</li>
 <li>Jenkins, Concourse</li>
-<li>Springboot, Kafka streams</li>
+<li>Springboot</li>
 <li>Stack ELK / EFK</li>
 <li>Python / Bash Shell</li>
-<li>Clean Archi</li>
+<li>Gradle, Maven</li>
 <li>Kafka, Nifi</li>
-<li>RegEx</li>
-<li>Clean Archi</li>
+<li>Docker</li>
+<li>Git</li>
 <li>Prometheus, Grafana</li>
 <li>RegEx</li>
 </ol>
@@ -693,98 +693,178 @@ ul li dt {
 
 <dl>
 <dt>Pole-Emploi</dt>
-<dd><em>Equipe de centralisation des logs (OPS et DevOps)</em>
+<dd><em>OPS/DevOps : Centralisation des logs  (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
 <strong>Février 2022 - Aujourd&#8217;hui</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
+Ma seconde plus grosse mission en terme de challenge, passer du côté Ops me donne du fil à retordre et beaucoup de formation en &#8220;cours du soir&#8221; pour atteindre un niveau confortable.<br><br>
+&nbsp;¤ Centralisation des logs : mettre en place les collectes de logs applicatifs (Nifi/Fluentbit), le parsing d&#8217;informations (Grok/RegEx), l&#8217;acheminement via Nifi/Kafka jusqu&#8217;à Elasticsearch, ainsi que la réalisation de dashboards Kibana.<br>
+&nbsp;¤ Bigdata : Mettre en place les collectes depuis des fichiers textes/csv, APIs ou autres, l&#8217;acheminement via Nifi/Kafka jusqu&#8217;au lac de données<br>
+&nbsp;¤ Infra : Administrer les stacks K8s<br>
+&nbsp;&nbsp;- Approche GitOps<br>
+&nbsp;&nbsp;- Mise à jour des stacks via Concourse (CI : tests intégration / CD : déploiement K8s)<br>
+&nbsp;&nbsp;- Kafka (Création/Modification/Suppression des Topic, nommage, taille messages, rétention messages…)<br>
+- Superviser les clusters et les agents Nifi (sur les VMs applicatives)<br>
+- Superviser ELK / EFK (PVC, cpu, etc)<br>
+&nbsp;&nbsp;- Alerting Prometheus / Grafana<br>
+&nbsp;&nbsp;- Dashboards Grafana avec les métriques tps réel<br>
+- Faire évoluer et maintenir le produit lors des upgrades de version des progiciels (Nifi, Kafka, ELK)<br>
+- Scripting pour automatiser les taches d&#8217;administration courantes<br>
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Observabilité (Stacks K8s)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Centralisation des logs : Elasticsearch - Fluent/Logstash - Kibana - Kafka - Nifi<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Monitoring : Prometheus - Grafana<br>
+BigData : Apache Nifi, Apache Hive, HDFS, HQL<br>
+DevOps : Concourse, Git, Ansible <br>
+Méthodologie : Mode produit, Kanban - Equipe de 4 à 6 personnes - Exigences Non Fonctionnelles (ENF)</dd>
 
 <dt>SADA Assurances</dt>
-<dd><em>Développeur Java, Kotlin</em>
+<dd><em>Développeur Java, Kotlin  (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
 <strong>Août 2020 - Janvier 2022</strong>
-- Développement d&#8217;une API back (sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, etc..) via des templates au format Word ou Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l&#8217;authentification via Auth0.<br><br>
-- Développement d&#8217;une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d&#8217;exporter toutes les données (ainsi que leut durée de conservation) d&#8217;un individu.<br><br>
-- Correction de nombreuses failles de sécurité (découvertes via un audit) dans le code source java des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions&#8230;<br><br>
-- MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité des actions sur les différentes APIs dans le cadre du RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible) de certains projets.<br><br>
-<strong>Environnement technique et fonctionnel</strong><br>
-- Développement : Java/Kotlin, Springboot, Jasper/Aspose, Clean Architecture, MongoDB, RabbitMQ, Postman, OpenAPI, Gradle/Maven, DBeaver, Robo3T<br>
-- DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)<br>
-- Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipes de 4 à 6 personnes</dd>
+&nbsp;¤ Développement d&#8217;une API back (projet sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, devis, etc..) via des templates au format Word/Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l&#8217;authentification et des rôles via Auth0. Décommissionnement de l&#8217;ancien service d&#8217;éditiques (Bdoc).<br>
+&nbsp;¤ Développement d&#8217;une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d&#8217;exporter toutes les données (ainsi que leur durée de conservation) d&#8217;un individu.<br>
+&nbsp;¤ Correction de nombreuses failles de sécurité (audit externe) dans le code source (Java 8) des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions&#8230;<br>
+&nbsp;¤ MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité des actions sur les différentes APIs dans le cadre du RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible) de certains projets.<br>
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Développement : Java/Kotlin, Springboot, Jasper/Aspose, Clean Architecture, MongoDB, RabbitMQ, OpenAPI, IntellIJ, Postman, Gradle/Maven, Git, DBeaver<br>
+DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)<br>
+Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipe de 4 à 6 personnes</dd>
 
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
+<dt>CompuGroup Medical</dt>
+<dd><em>DevOps Jenkins (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
+<strong>Février 2020 - Juillet 2020</strong>
+Contexte : Améliorer la forge logicielle de CGM avec un mécanisme d&#8217;intégration / livraison en continu (CI / CD) pour tous les projets de développement<br><br>
+&nbsp;¤ Mise en place et configuration de l&#8217;outillage pour l&#8217;intégration continue et le déploiement dédié à une centaine de projets : Jenkins, Sonarqube<br>
+&nbsp;¤ Réalisation des modèles de pipelines pour les projets :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- C# : Build du projet, exécution des tests unitaires NUnit3 et TestsCoverages avec OpenCover, analyse de la qualimétrie avec SonarQube, livraison en continu  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nuget (package .NET) : Build de la solution Visual Studio, exécution des tests unitaires NUnit3 et TestsCoverages avec OpenCover, analyse de la qualimétrie avec SonarQube, déploiement vers Artifactory<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Packaging Innosetup (génération d&#8217;archives autoextractibles) : Création et livraison d&#8217;un setup.exe depuis des binaires déjà  existants.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Docker <br>
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Scripting : Groovy, Bash Shell, Powershell, Cake (C#)<br>
+DevOps : Jenkins, SonarQube, Gitlab, Docker, Artifactory, Teamcity<br>
+Outils : Visual Studio, NUnit, OpenCover, Nuget, Git, Gitversion, FinalBuilder, Innosetup, XMind (mindmaps des pipelines)<br>
+Equipe de 2/3 personnes</dd>
 
-<dt>Gizmonic Institute Company (GIM)</dt>
-<dd><em>Lead Web Designer</em>
-<strong>2001-2004</strong>
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
+<dt>Enercal.nc</dt>
+<dd><em>Développeur PHP (ISI.nc <img src="https://isi.nc/images/logo_isi_final.png" height="10">)</em>
+<strong>Février 2019 - Août 2019</strong>
+Contexte : Développement du backend de l&#8217;application mobile d&#8217;Enercal, gestionnaire du système électrique néocalédonien. Les 3 derniers mois en télétravail depuis la Nouvelle-Zélande<br><br>
+&nbsp;¤ Développement du backend de l&#8217;application mobile Enercal (API REST basée sur un CMS Drupal 7) <br>
+&nbsp;¤ Réalisation du contrat d&#8217;interface de l&#8217;API (documentation réutilisée par le client en interne) <br>
+&nbsp;¤ Tests de charge / tests unitaires avec Jmeter.<br>
+<br><u>Environnement technique et fonctionnel</u><br>
+Développement : PHP/MySQL (CMS Drupal 7), Postman, Jmeter, Docker, Gradle, Git.<br>
+Méthodologie : Agile (Scrum, Sprints de 2semaines) - Equipe de 2 à 4 personnes</dd>
 
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
+<dt>Société Le Nickel (SLN)</dt>
+<dd><em>Développeur JAVA  (ISI.nc <img src="https://isi.nc/images/logo_isi_final.png" height="10">)</em>
+<strong>Janvier 2017 - Février 2019</strong>
+Une mission très challengeante car j&#8217;ai beaucoup appris en très peu de temps sur Kafka, Elasticsearch et l&#8217;écosystème K8s dans cette petite startup néocalédonienne (ISI), précurseuse dans ses choix technologiques.<br>
+Développement en équipe (plateau) sur plusieurs applications de la SLN, basées sur le même socle : Architecture micro-services, intégration continue et déploiement automatisé d&#8217;images docker via Gitlab CI / Jenkins vers des infras K8s. Principalement :<br>
+&nbsp;¤ Projet d&#8217;interconnexion de Maximo (logiciel EAM commercialisé par IBM) avec Reflex (un logiciel WMS produit par le groupe Hardis). Les flux de Maximo (entrée) sont obtenus via la base Oracle et un autre projet interne permettant d&#8217;envoyer les données Oracle vers Kafka en temps réel. Les données sont ajustées selon les types de données puis écrites dans des topics Kafka (tampon/scaling) dédiés. Plusieurs jobs Java viendront ensuite dépiler les messages des topics Kafka et effectuer les appels SOAP vers le webservice de Reflex (sortie).<br>
+&nbsp;¤ Projet permettant le suivi de la flotte et des horamètres des véhicules de la SLN en temps réel via l&#8217;interconnexion des APIs REST d&#8217;Hexagon (logiciel australien de suivi de mines) et de la société fournissant les coordonnées GPS des véhicules (données en entrée)<br>
+&nbsp;¤ Application de suivi exact et détaillé du stock d&#8217;explosifs de la SLN via une interface dédiée et épurée basée sur les données de Maximo<br>
+&nbsp;¤ Application en ligne permettant la déclaration des conflits d&#8217;intérêts potentiels au sein de la SLN<br>
+&nbsp;¤ Projet permettant de simplifier grandement la saisie des bons de travaux dans Maximo.<br><br>
+Suivi de la qualité du code avec SonarQube, taux de couverture des tests unitaires > 70%<br>
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Développement : Java8, Kafka Streams, Elasticsearch, Guice/Springboot, Gradle, Git. <br>
+DevOps : Gitlab CI, Jenkins, Sonarqube, Docker, kubectl (Kubernetes)<br>
+Méthodologie : Agile (Scrum, Sprints de 2semaines) - Equipe de 2 à 5 personnes</dd>
 
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
+<dt>Ministère de la défense - SMSIF</dt>
+<dd><em>Développeur C# (SopraSteria<img src="https://e7.pngegg.com/pngimages/397/511/png-clipart-sopra-steria-orange-s-a-chief-executive-credit-agricole-canal-sop-orange-logo.png" height="13">)</em>
+<strong>Juillet 2015 - Décembre 2016</strong>
+Contexte : Le service ministériel des systèmes d&#8217;information de fonctionnement (SMSIF) est l&#8217;organisme chargé de la tierce-maintenance applicative de systèmes d&#8217;informations des ressources humaines du Ministère de la Défense. Ma mission porte sur le projet Louvois, permettant la gestion de la solde des militaires, du calcul des indemnités au virement pour chaque administré.
+Développement et MCO du calculateur (application console C#) 
+&nbsp;¤ Réalisation des évolutions et amélioration la qualité du code (SonarQube)
+&nbsp;¤ Maintenance corrective du calculateur (analyse et correction de bugs).
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Développement : C#, Visual Studio 2012, Oracle 11G, Microsoft TFS (Versionning), SonarQube<br>
+DevOps : GitlabCI, Jenkins, Sonarqube, Docker, Kubernetes<br>
+Méthodologie : Cycle en V sur délai court (3/4 semaines) - Equipe de 10 à 15 personnes</dd>
 
-<dt>Gizmonic Institute Company (GIM)</dt>
-<dd><em>Lead Web Designer</em>
-<strong>2001-2004</strong>
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
+<dt>Ministère de la défense - SMSIF</dt>
+<dd><em>Intégrateur Technique (SopraSteria<img src="https://e7.pngegg.com/pngimages/397/511/png-clipart-sopra-steria-orange-s-a-chief-executive-credit-agricole-canal-sop-orange-logo.png" height="13">)</em>
+<strong>Février 2014 - Juillet 2015</strong>
+Intégration technique des différents modules de l&#8217;application Louvois (chacun ayant son langage de programmation propre : Java, C#, Oracle&#8230; ou étant un logiciel tiers).<br />
+&nbsp;¤ Développement et MCO de l&#8217;intégration technique et de l&#8217;intégration continue de l&#8217;application Louvois
+&nbsp;¤ Conception et mise à jour des scripts shell (bash/Linux) ainsi que des builds de l&#8217;intégration continue (builds manuels)
+&nbsp;¤ Analyse et remontées des informations d&#8217;erreurs lors des cycles de tests
+&nbsp;¤ Maintien de la documentation technique et des procédures
+<br>
+<u>Environnement technique et fonctionnel</u><br>
+Développement : Bash shell, Linux (Debian/CentOS), Microsoft TFS (Versionning), Oracle 11G<br>
+Méthodologie : Cycle en V sur délai court (3/4 semaines) - Equipe de 2 à 3 personnes, mixte prestataire / personnel du Ministère de la Défense.</dd>
 
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
+<dt>Hexacomb <img src="https://www.orconind.com/wp-content/uploads/2018/07/hexacomb-logo-1.jpg" height="22" style="vertical-align: middle;"></dt>
+<dd><em>Apprenti ingénieur</em>
+<strong>Sept 2010 - Sept 2013</strong>
+Responsable informatique de l’entreprise  : Gestion des sauvegardes, Active Directory, Installations logicielles/matérielles, Mise en place fibre optique (suivi de prestation externe)<br>
+Réalisation d’un système de supervision en temps réel de l’état des machines de production (en fonctionnement, en réglage, ou machine inutilisée), avec un historique des jours, mois, années précédents. <br>
+&nbsp;¤ Analyse, tests de faisabilité et rédaction du cahier de spécification. 
+&nbsp;¤ Mise au point d&#8217;un système embarqué (logiciel et électronique) permettant de récupérer les informations des capteurs (installés sur une machine industrielle) afin de les transmettre au serveur web.
+&nbsp;¤ Réalisation du site intranet permettant un affichage interactif et temps réel des données obtenues.
+<br>
+<u>Environnement technique</u><br>
+Matériel : Raspberry Pi, capteurs de courant / distance<br>
+Développement : Java, JS/Ajax, CSS, PHP/MySQL<br></dd>
 
-<dt>Gizmonic Institute Company (GIM)</dt>
-<dd><em>Lead Web Designer</em>
-<strong>2001-2004</strong>
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
-
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
-
-<dt>Gizmonic Institute Company (GIM)</dt>
-<dd><em>Lead Web Designer</em>
-<strong>2001-2004</strong>
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
-
-<dt>Initrode Conglomerated</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2005</strong>
-Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.</dd>
-
-<dt>Gizmonic Institute Company (GIM)</dt>
-<dd><em>Lead Web Designer</em>
-<strong>2001-2004</strong>
-Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</dd>
+<dt>Polytech Tours <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Logo_Polytech_Tours.svg" height="22" style="vertical-align: middle;"></dt>
+<dd><em>Projet de fin d&#8217;études</em>
+<strong>Janvier 2013 - Juillet 2013</strong>
+Réalisation d’un système de supervision d’une centrale photovoltaïque (3panneaux, 525Wc), permettant l’affichage en continu des informations de production d’énergie, ainsi que les données issues d’une station météo (dans le but d’en mesurer l’impact sur notre production). <br>
+Un projet très enrichissant (et toujours d&#8217;actualité 10ans après) alliant informatique, électronique et mécanique.<br><br>
+&nbsp;¤ Analyse, test de faisabilité et rédaction du cahier de spécification.<br>
+&nbsp;¤ Fabrication des supports métalliques pour les panneaux photovoltaïques.<br>
+&nbsp;¤ Développement d&#8217;une application JAVA, dont le but est de collecter les donnéees des micro-onduleurs ainsi que de la station météo, afin de pouvoir les communiquer au serveur web.<br>
+&nbsp;¤ Réalisation d&#8217;un site intranet sur la base d&#8217;EmonCMS, un projet open-source lui aussi toujours d&#8217;actualité qui permet de traiter et afficher des données temps-réel liées à la production / consommation d&#8217;énergie (et autres infos temps réel).<br>
+<br>
+<u>Environnement technique</u><br>
+Matériel : Micro-onduleurs Enecsys, Station météo Davis, Traqueurs solaires <br>
+Développement : Java, JS/Ajax, CSS, PHP/MySQL<br>
+Protocoles : Analyse de trames Zigbee, Protocole série de la station Davis<br></dd>
 </dl>
 
 <hr />
 
-<h3 id="experience">Education</h3>
+<p><br>
+<br></p>
+
+<h3 id="experience"><img src="https://cdn-icons-png.flaticon.com/24/114/114806.png" alt="edu" /> Formation</h3>
 
 <dl>
-<dt>Engineer School</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2004-2008</strong></dd>
+<dt>Ingénieur en Informatique Industrielle</dt>
+<dd><em>Ecole Polytech&#8217; Tours</em>
+<strong>2010-2013</strong></dd>
 
-<dt>School</dt>
-<dd><em>Principal and Creative Lead</em>
-<strong>2000-2004</strong></dd>
+<dt>BTS I.R.I.S. (Informatique et Réseaux)</dt>
+<dd><em>Lycée Grandmont - Tours</em>
+<strong>2008-2010</strong></dd>
 </dl>
+
+<hr />
+
+<h3 id="technical"><img src="https://cdn-icons-png.flaticon.com/24/3075/3075873.png" alt="hobbies" /> Hobbies</h3>
+
+<ol>
+<li>Course à pied</li>
+<li>Cyclisme / VTT</li>
+<li>Lecture</li>
+<li>Photographie</li>
+<li>Dev / Scripting</li>
+<li>Trading</li>
+</ol>
 
 <hr />
 
 <h3 id="footer">Footer</h3>
 
-<p>Xavier Touron &#8212; <a href="mailto:contact@xtodev.fr">contact@xtodev.fr</a> &#8212; 07.66.65.32.68 &#8212; <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="#" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a></p>
+<p>Xavier Touron &#8212; <a href="mailto:contact@xtodev.fr">contact@xtodev.fr</a> &#8212; 07.66.65.32.68 &#8212; <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a></p>
 
 <hr />
 
