@@ -1,19 +1,20 @@
 # Xavier Touron
-## Ingénieur Développement backend - DevOps
+## Ingénieur DevOps & Dév. backend
+<i>Nationalité française, actuellement à Montpellier  <img src="https://cdn-icons-png.flaticon.com/16/317/317182.png" style="vertical-align: middle;"></i>
 
 > [PDF (Complet)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf) [PDF (1 page)](https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf)<br>
-> <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> [contact@xtodev.fr](mailto:contact@xtodev.fr)   
-> <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68
+> <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> [<b>contact@xtodev.fr</b>](mailto:contact@xtodev.fr)   
+> <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> <b>(+33) 7 66 65 32 68</b>
 
 ------
 
-### ![profile](https://cdn-icons-png.flaticon.com/24/3135/3135707.png) Profil {#profile}
+### Profil {#profile}
 
-Oscille entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps. Une envie insatiable de découvrir et d'apprendre de nouvelles technologies.
+Oscille entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps.<br> Une envie insatiable de découvrir et d'apprendre de nouvelles technologies.
 
 ------
 
-### ![skills](https://cdn-icons-png.flaticon.com/24/3281/3281142.png) Skills {#skills}
+### Savoir<br> faire {#skills}
 
 * Développement
   : Je développe des applications backend, avec une certaine affinité pour les APIs REST.
@@ -26,7 +27,7 @@ Oscille entre les missions de développement backend et les missions Ops afin de
 
 -------
 
-### ![tech](https://cdn-icons-png.flaticon.com/24/3067/3067451.png) Technos {#technical}
+### Technos {#technical}
 
 1. Java / Kotlin / C#
 1. Kubernetes, Helm
@@ -43,7 +44,7 @@ Oscille entre les missions de développement backend et les missions Ops afin de
 
 ------
 
-### ![exp](https://cdn-icons-png.flaticon.com/24/3325/3325009.png) Missions {#experience}
+### Missions {#experience}
 
 Pole-Emploi
 : *OPS/DevOps : Centralisation des logs  (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)*
@@ -187,7 +188,7 @@ Polytech Tours <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Log
 <br>
 <br>
 
-### ![edu](https://cdn-icons-png.flaticon.com/24/114/114806.png) Formation {#experience}
+### Formation {#experience}
 
 Ingénieur en Informatique Industrielle
 : *Ecole Polytech' Tours*
@@ -199,7 +200,15 @@ BTS I.R.I.S. (Informatique et Réseaux)
 
 ------
 
-### ![hobbies](https://cdn-icons-png.flaticon.com/24/3075/3075873.png) Hobbies {#technical}
+### Langues étrangères {#technical}
+
+1. Anglais (courant)
+1. Espagnol (scolaire)
+1. Allemand (en cours d'apprentissage)
+
+------
+
+### Hobbies {#technical}
 
 1. Course à pied
 1. Cyclisme / VTT
@@ -212,6 +221,6 @@ BTS I.R.I.S. (Informatique et Réseaux)
 
 ### Footer {#footer}
 
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- 07.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a> 
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a> 
 
 ------
