@@ -6,8 +6,6 @@ jobs:
     container:
       image: xto34/markdown-resume:latest
       options: --user root
-      volumes:
-        - ${GITHUB_WORKSPACE}/assets:${PWD}/assets
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
