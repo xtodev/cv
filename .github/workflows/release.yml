@@ -5,10 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: xto34/markdown-resume:latest
-      options: --user root 
+      options: --user root
+      volumes:
+        - ${GITHUB_WORKSPACE}/assets:assets
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: test PWD
+        run: pwd
+      - name: test LS
+        run: ls -lah
       - name: Make pdf (CV pdf)
         run: md2resume pdf --template swissen2 ${GITHUB_WORKSPACE}/cv.md .
       - name: Make html (CV html)
