@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Xavier Touron | Ingénieur Développement backend - DevOps</title>
+<title>Xavier Touron | Ingénieur DevOps &amp;amp; Développement JAVA</title>
 <style type="text/css">
 
 article,
@@ -243,17 +243,34 @@ body.pdf a {
   color: black;
 }
 body.pdf .container {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 0;
   background: none;
-  border: none;
-  border-width: 8px 0 2px 0;
-  text-align: left;
+}
+body.pdf .date:after {
+  margin-top: -8px;
+}
+body.pdf span {
+  background-color: white;
 }
 body.pdf .resume {
   position: relative;
-  padding: 40px 80px;
+  padding: 40px 25px;
+}
+body.pdf .identity {
+  margin-right: 10px;
+}
+body.pdf .lang {
+  margin-top: -10px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+}
+body.pdf .hiddenhr {
+  border-top: 2px solid white;
+}
+body.pdf .hiddenhrinpdf {
+  border-top: 2px solid white;
+}
+body.pdf hr {
+  margin: 8px auto;
 }
 body.pdf a[href$='.pdf'] {
   display: none;
@@ -273,6 +290,7 @@ body.pdf h3 {
   float: left;
   width: 20%;
   font-style: normal;
+  margin-top: 12px;
 }
 body.pdf h3+p {
   float: left;
@@ -282,10 +300,6 @@ body.pdf blockquote {
   top: 40px;
   right: 50px;
   position: absolute;
-}
-body.pdf ul li {
-  width: 33.33%;
-  float: left;
 }
 body.pdf ul dl {
   margin: 0;
@@ -301,8 +315,8 @@ body.pdf ul dl dd {
 }
 body.pdf ol {
   float: left;
-  width: 80%;
-  margin: .7em 0 0;
+  width: 95%;
+  margin-left: 1em;
 }
 body.pdf ol li {
   width: 33%;
@@ -318,7 +332,6 @@ body.pdf ol li:nth-child(3) {
 }
 body.pdf dl {
   margin: .7em 0 0;
-  page-break-inside: avoid !important;
   display: block;
 }
 body.pdf dl strong {
@@ -326,8 +339,20 @@ body.pdf dl strong {
   margin-top: -2em;
 }
 body.pdf dl em {
-  font-size: 130%;
+  font-size: 120%;
   font-style: normal;
+}
+body.pdf .h2long {
+  background: white;
+}
+body.pdf .h2short {
+  background: white;
+}
+body.pdf #photo {
+  margin-top: -61px;
+  margin-right: 30px;
+  box-shadow: 0px -4px 0px 1px white, rgba(0,0,0,0) 0px 3px 8px;
+  border-width: 0px;
 }
 
 .clearfix {
@@ -342,7 +367,6 @@ body.pdf dl em {
 }
 body {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
-  color: #444;
 }
 h1,
 h2,
@@ -359,28 +383,82 @@ h1:before {
   position: relative;
   top: -0.4em;
 }
+pre {
+  display: block;
+  position: relative;
+}
+span {
+  padding: 0;
+  line-height: 1.3em;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+  color: #444;
+}
+.aboutme {
+  width: 600px;
+  float: left;
+  clear: left;
+  padding-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+.identity {
+  width: 200px;
+  float: right;
+  clear: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: small;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-right: -10px;
+}
+.lang {
+  width: 200px;
+  float: right;
+  clear: right;
+  font-size: small;
+  padding-bottom: 20px;
+  margin-right: -10px;
+}
 .container {
-  margin: 0 auto;
+  margin: 25px auto;
   padding: 0;
   background: whiteSmoke;
   border: solid #666;
-  border-width: 8px 0 2px 0;
+  border-width: 25px 0 5px 0;
   text-align: left;
+}
+.date {
+  font-size: small;
+  width: 150px;
+}
+.date:after {
+  float: right;
+  margin-top: -7px;
+  content: "|";
+  color: orange;
+  font-size: 300%;
 }
 .resume {
   position: relative;
   padding: 10px 20px;
+  margin-top: -10px;
+  margin-bottom: -15px;
 }
 a {
   color: #990003;
 }
-a[href$='.pdf'] {
+a[href$='.pdf']::before {
+  content: url('https://cdn-icons-png.flaticon.com/64/3997/3997593.png');
   display: inline-block;
-  background: #666;
-  color: white;
-  padding: 6px 12px;
-  margin-bottom: 6px;
-  text-decoration: none;
+  width: 32px;
+  height: 32px;
+}
+a[href$='.pdf'] {
+  font-size: small;
+  width: 10px;
+  position: absolute;
+  top: -70px;
+  left: 100%;
 }
 blockquote {
   margin: 0;
@@ -395,11 +473,42 @@ hr {
   width: 100%;
   clear: both;
   border: none;
-  border-top: 1px solid #CCC;
+  border-top: 2px solid #cccccc;
   font-size: 1px;
   line-height: 0;
   overflow: visible;
   page-break-after: avoid;
+}
+.hiddenhr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 2px solid whitesmoke;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+.hiddenhrinpdf {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 2px solid #cccccc;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+hr ~ h2 {
+  border-top: 0px;
 }
 h1 {
   margin: 0;
@@ -421,6 +530,12 @@ h3 {
   font-size: 150%;
   font-weight: bold;
 }
+h4 {
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: small;
+  width: 150px;
+}
 h3+p {
   margin: 0 0 16px;
   padding: 0;
@@ -428,15 +543,20 @@ h3+p {
   font-size: 104%;
   line-height: 24px;
 }
+h3 br + * {
+  font-size: 5px;
+}
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
 }
 ul li {
   margin: 0;
   padding: 0;
+  flex-basis: 33%;
 }
 ul dl {
   margin: .3em 0 0;
@@ -474,14 +594,15 @@ ol li:nth-child(1) {
 dl {
   float: left;
   display: block;
-  width: 75%;
+  width: 80%;
   margin: 0;
   padding: 0;
 }
 dl dt {
   margin: 0;
   padding: 0;
-  font-size: 140%;
+  font-size: 90%;
+  font-weight: bold;
 }
 dl dd {
   margin: 0 0 1.5em;
@@ -491,6 +612,9 @@ dl dd {
 }
 dl strong {
   display: block;
+  padding-top: 9px;
+  margin-left: -40px;
+  font-size: 102%;
 }
 dl em {
   display: block;
@@ -524,6 +648,25 @@ ul li dt {
   border: 0;
   padding-top: 0;
 }
+.h2long {
+  background: whiteSmoke;
+  text-align: left;
+  content: "";
+  display: block;
+  width: 60%;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+.h2short {
+  background: whiteSmoke;
+  text-align: left;
+  content: "";
+  display: block;
+  width: 30%;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
 #footer {
   display: none;
 }
@@ -531,30 +674,201 @@ ul li dt {
   width: 100%;
   font-size: 11px;
   text-align: center;
+  margin: 0 0 0px;
+}
+#photo {
+  width: 150px;
+  height: 150px;
+  margin-top: -67px;
+  margin-right: 30px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border: solid whiteSmoke;
+  border-width: 5px;
+}
+#subheading {
+  margin-bottom: 30px;
 }
 
-@media screen and (min-width: 37.5em) {
-  body {
-    padding: 2em 0;
+@media print {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
   }
   blockquote {
-    top: 10px;
+    top: 40px;
     right: 50px;
     position: absolute;
   }
   h1 {
-    margin-top: .5em;
+    margin-top: 0;
+    font-size: 48px;
+    letter-spacing: -1px;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  h3 {
+    float: left;
+    width: 20%;
+  }
+  h3+p {
+    float: left;
+    width: 80%;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 4em 0 0;
   }
   ol {
-    margin: 0 0 0 1em;
+    float: center;
+    width: 100%;
   }
   ol li {
-    width: 50%;
+    width: 33%;
     margin: 0;
   }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
   ol li:nth-child(1),
-  ol li:nth-child(2) {
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
     border-top: none;
+  }
+  dl strong {
+    float: right;
+    margin-top: -2em;
+  }
+  dl em {
+    font-size: 130%;
+    font-style: normal;
+  }
+  a[href$='.pdf'] {
+    display: none;
+  }
+}
+@media screen and (min-width: 240px) and (max-width: 479px) {
+  .container {
+    margin: 0px auto;
+  }
+  blockquote {
+    display: none;
+  }
+  .aboutme {
+    width: 100%;
+  }
+  .identity {
+    width: 100%;
+  }
+  .lang {
+    width: 100%;
+  }
+  a[href$='.pdf'] {
+    display: none;
+  }
+  .date:after {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .container {
+    margin: 0px auto;
+  }
+  blockquote {
+    margin-top: -50px;
+    margin-bottom: -20px;
+  }
+  #photo {
+    width: 90px;
+    height: 90px;
+    margin-top: -60px;
+    margin-left: 81%;
+  }
+  .aboutme {
+    width: 65%;
+  }
+  .identity {
+    width: 35%;
+  }
+  .lang {
+    width: 35%;
+  }
+  .date:after {
+    display: none;
+  }
+  .h2long {
+    width: 80%;
+  }
+  .h2short {
+    width: 80%;
+  }
+  dl {
+    width: 100%;
+  }
+  dl dt:before {
+    content: "|";
+    color: orange;
+    font-size: 150%;
+    margin-top: -10px;
+  }
+  .resume {
+    margin-bottom: -10px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 911px) {
+  .container {
+    margin: 0px auto;
+  }
+  blockquote {
+    margin-top: -65px;
+    margin-bottom: -20px;
+  }
+  #photo {
+    width: 105px;
+    height: 105px;
+    margin-top: -50px;
+    margin-left: 75%;
+  }
+  .aboutme {
+    width: 65%;
+  }
+  .identity {
+    width: 35%;
+  }
+  .lang {
+    width: 35%;
+  }
+  .date:after {
+    display: none;
+  }
+  .h2long {
+    width: 80%;
+  }
+  .h2short {
+    width: 80%;
+  }
+  dl {
+    width: 100%;
+  }
+  dl dt:before {
+    content: "|";
+    color: orange;
+    font-size: 150%;
+    margin-top: -10px;
+  }
+  .resume {
+    margin-bottom: -10px;
   }
 }
 @media screen and (min-width: 57em) {
@@ -587,10 +901,6 @@ ul li dt {
     float: left;
     width: 80%;
   }
-  ul li {
-    width: 33.33%;
-    float: left;
-  }
   ul dl dt {
     font-size: 122%;
     font-weight: normal;
@@ -600,9 +910,8 @@ ul li dt {
     padding: 0 4em 0 0;
   }
   ol {
-    float: left;
-    width: 80%;
-    margin: .6em 0 0;
+    float: center;
+    width: 100%;
   }
   ol li {
     width: 33%;
@@ -635,238 +944,262 @@ ul li dt {
     <div class="resume">
         <h1>Xavier Touron</h1>
 
-<h2>Ingénieur Développement backend - DevOps</h2>
+<h2 id="subheading">Ingénieur DevOps &amp; Développement JAVA</h2>
 
 <blockquote>
-  <p><a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier_Full.pdf">PDF (Complet)</a> <a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf">PDF (1 page)</a><br>
-  <img src="https://cdn-icons-png.flaticon.com/16/646/646094.png" style="vertical-align: middle;"> <a href="mailto:contact@xtodev.fr">contact@xtodev.fr</a><br />
-  <img src="https://cdn-icons-png.flaticon.com/16/977/977411.png" style="vertical-align: middle;"> 07.66.65.32.68</p>
+  <p><img src="./assets/photo.jpg" alt="Pic" title="" id="photo" />
+  <a href="https://github.com/xtodev/cv/releases/latest/download/CV_Touron_Xavier.pdf"></a></p>
 </blockquote>
 
 <hr />
 
-<h3 id="profile"><img src="https://cdn-icons-png.flaticon.com/24/3135/3135707.png" alt="profile" /> Profil</h3>
+<p><span class="aboutme">
+Ingénieur diplomé avec plus de 10 ans d&#8217;expérience sur des compétences polyvalentes :<br><br>
+  • <u>Développement</u> : Développement d&#8217;applications backend en Java, avec une affinité pour les APIs et les micro-services.<br>
+  • <u>Infra/Ops</u> : Déploiement et administration de clusters Elasticsearch, Kafka, ou encore Nifi, sur Kubernetes.<br>
+  • <u>DevOps</u> : Conception de pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions. Automatisation de tout ce qui devrait l&#8217;être.<br><br>
+Curieux de nature, j&#8217;ai une envie insatiable d&#8217;apprendre de nouvelles technologies.
+</span></p>
 
-<p>Oscille entre les missions de développement backend et les missions Ops afin de mieux appréhender les problématiques DevOps. Une envie insatiable de découvrir et d&#8217;apprendre de nouvelles technologies.</p>
+<p><span class="identity">
++33 7 66 65 32 68<br>
+contact@xtodev.fr<br>
+Vit à Montpellier, France<br>
+<br>
+Concubinage - 2 enfants<br>
+35 ans<br>
+Nationalité française
+</span></p>
 
-<hr />
+<p><span class="lang">
+<u>Langues :</u><br>
+Français - Langue maternelle<br>
+Anglais - Opérationnel (<a href=#>B2</a>)<br>
+</span></p>
 
-<h3 id="skills"><img src="https://cdn-icons-png.flaticon.com/24/3281/3281142.png" alt="skills" /> Skills</h3>
+<h2 class="h2long">EXPERIENCE PROFESSIONNELLE</h2>
 
-<ul>
-<li><dl>
-<dt>Développement</dt>
-<dd>Je développe des applications backend, avec une certaine affinité pour les APIs REST.</dd>
-</dl></li>
-<li><dl>
-<dt>Infra (Ops)</dt>
-<dd>Je déploie des stacks EFK sur Kubernetes, j&#8217;administre des clusters Elasticsearch, Kafka, Nifi avec des alertes sous Prometheus.</dd>
-</dl></li>
-<li><dl>
-<dt>DevOps</dt>
-<dd>Je conçois et déploie des pipelines CI/CD avec Jenkins, Concourse ou encore Github Actions.</dd>
-</dl></li>
-</ul>
-
-<hr />
-
-<h3 id="technical"><img src="https://cdn-icons-png.flaticon.com/24/3067/3067451.png" alt="tech" /> Technos</h3>
-
-<ol>
-<li>Java / Kotlin / C#</li>
-<li>Kubernetes, Helm</li>
-<li>Jenkins, Concourse</li>
-<li>Springboot</li>
-<li>Stack ELK / EFK</li>
-<li>Python / Bash Shell</li>
-<li>Gradle, Maven</li>
-<li>Kafka, Nifi</li>
-<li>Docker</li>
-<li>Git</li>
-<li>Prometheus, Grafana</li>
-<li>RegEx</li>
-</ol>
-
-<hr />
-
-<h3 id="experience"><img src="https://cdn-icons-png.flaticon.com/24/3325/3325009.png" alt="exp" /> Missions</h3>
+<h3 class="date">Depuis 02/2022</h3>
 
 <dl>
-<dt>Pole-Emploi</dt>
-<dd><em>OPS/DevOps : Centralisation des logs  (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
-<strong>Février 2022 - Aujourd&#8217;hui</strong>
-Ma seconde plus grosse mission en terme de challenge, passer du côté Ops me donne du fil à retordre et beaucoup de formation en &#8220;cours du soir&#8221; pour atteindre un niveau confortable.<br><br>
-&nbsp;¤ Centralisation des logs : mettre en place les collectes de logs applicatifs (Nifi/Fluentbit), le parsing d&#8217;informations (Grok/RegEx), l&#8217;acheminement via Nifi/Kafka jusqu&#8217;à Elasticsearch, ainsi que la réalisation de dashboards Kibana.<br>
-&nbsp;¤ Bigdata : Mettre en place les collectes depuis des fichiers textes/csv, APIs ou autres, l&#8217;acheminement via Nifi/Kafka jusqu&#8217;au lac de données<br>
-&nbsp;¤ Infra : Administrer les stacks K8s<br>
-&nbsp;&nbsp;- Approche GitOps<br>
-&nbsp;&nbsp;- Mise à jour des stacks via Concourse (CI : tests intégration / CD : déploiement K8s)<br>
-&nbsp;&nbsp;- Kafka (Création/Modification/Suppression des Topic, nommage, taille messages, rétention messages…)<br>
-- Superviser les clusters et les agents Nifi (sur les VMs applicatives)<br>
-- Superviser ELK / EFK (PVC, cpu, etc)<br>
-&nbsp;&nbsp;- Alerting Prometheus / Grafana<br>
-&nbsp;&nbsp;- Dashboards Grafana avec les métriques tps réel<br>
-- Faire évoluer et maintenir le produit lors des upgrades de version des progiciels (Nifi, Kafka, ELK)<br>
-- Scripting pour automatiser les taches d&#8217;administration courantes<br>
+<dt>INGENIEUR DEVOPS</dt>
+<dd>
+<em>France-Travail (Pole-Emploi) - Montpellier, France</em>
+Mission au sein de l&#8217;équipe Ops chargée de la centralisation des logs et des collectes bigdata<br>
+• Refonte (avec Helm et en utilisant l&#8217;Infra-as-Code) des déploiements automatisés pour chacune des briques de la chaine de centralisation des logs<br>
+• Administration des clusters Kafka et Elasticsearch (allocation de ressources, incidents, évolutions&#8230;)<br>
+• Administration des agents de collecte Fluent (Kubernetes) et Nifi (3000+ VMs applicatives)<br>
+• Mise en place de supervision et alerting pour garantir le bon fonctionnement du service de centralisation des logs<br>
+• Veille sur les vulnérabilités des images docker utilisées<br>
+• Bigdata : Mise en place de collectes depuis des fichiers CSV ou des APIs jusqu&#8217;au lac de données<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
-Observabilité (Stacks K8s)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Centralisation des logs : Elasticsearch - Fluent/Logstash - Kibana - Kafka - Nifi<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Monitoring : Prometheus - Grafana<br>
-BigData : Apache Nifi, Apache Hive, HDFS, HQL<br>
-DevOps : Concourse, Git, Ansible <br>
-Méthodologie : Mode produit, Kanban - Equipe de 4 à 6 personnes - Exigences Non Fonctionnelles (ENF)</dd>
+Chaine de centralisation des logs : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Fluent / Apache Nifi => Apache Kafka => Logstash (Grok/RegEx) => Elasticsearch/Kibana<br>
+Conteneurisation : Docker - Kubernetes - Helm<br>
+Monitoring : Prometheus (AlertManager) - Grafana<br>
+BigData : Apache Nifi, Apache Hive, HDFS, HiveQL<br>
+DevOps : Concourse, Rancher Fleet (gitOps), Ansible, Artifactory, Trivy/Snyk<br>
+Méthodologie : Mode produit + Agile (Scrum) - Equipe de 4 à 5 personnes - Exigences Non Fonctionnelles (ENF)<br></dd>
+</dl>
 
-<dt>SADA Assurances</dt>
-<dd><em>Développeur Java, Kotlin  (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
-<strong>Août 2020 - Janvier 2022</strong>
-&nbsp;¤ Développement d&#8217;une API back (projet sous Java17 et dockerisé), permettant la génération des éditiques de la SADA (attestations, contrats, devis, etc..) via des templates au format Word/Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l&#8217;authentification et des rôles via Auth0. Décommissionnement de l&#8217;ancien service d&#8217;éditiques (Bdoc).<br>
-&nbsp;¤ Développement d&#8217;une API pour le RGPD (sous Kotlin, non dockerisé, clean architecture) permettant d&#8217;exporter toutes les données (ainsi que leur durée de conservation) d&#8217;un individu.<br>
-&nbsp;¤ Correction de nombreuses failles de sécurité (audit externe) dans le code source (Java 8) des projets : failles XSS, gestions des droits, stockage des mots de passes, sessions&#8230;<br>
-&nbsp;¤ MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité des actions sur les différentes APIs dans le cadre du RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible) de certains projets.<br>
+<hr />
+
+<h3 class="date">08/2020 - 01/2022</h3>
+
+<dl>
+<dt>INGENIEUR DEVELOPPEMENT JAVA</dt>
+<dd>
+<em>SADA Assurances - Nîmes, France</em>
+• Développement d&#8217;une API back (projet Java17, Docker) permettant la génération des éditiques de la SADA (attestations, contrats, devis, etc..) via des templates au format Word/Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l&#8217;authentification et des rôles via Auth0.<br>
+Développement d&#8217;une API pour le RGPD (projet Kotlin, clean architecture) permettant d&#8217;exporter toutes les données (ainsi que leur durée de conservation) d&#8217;un individu.<br>
+• Correction de nombreuses failles de sécurité (audit externe) sur des anciens projets Java8 : failles XSS, gestions des droits, stockage des mots de passes, sessions&#8230;<br>
+• MCO : Montée de version du framework Springboot et MongoDB sur plusieurs projets, ajout de traçabilité sur les différentes APIs pour le RGPD. Maintenance sur les CI (Gitlab) et CD (Ansible).<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
 Développement : Java/Kotlin, Springboot, Jasper/Aspose, Clean Architecture, MongoDB, RabbitMQ, OpenAPI, IntellIJ, Postman, Gradle/Maven, Git, DBeaver<br>
 DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)<br>
-Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipe de 4 à 6 personnes</dd>
+Méthodologie : Agile (Scrum, Sprints de 3semaines) - Equipe de 4 à 6 personnes<br></dd>
+</dl>
 
-<dt>CompuGroup Medical</dt>
-<dd><em>DevOps Jenkins (Conserto <img src="https://camo.githubusercontent.com/cf205bfa51e1f09c26909321e5796271fbffbbcd55190fd21d083da1598ee34f/68747470733a2f2f7777772e6d796672656e6368737461727475702e636f6d2f6c6f676f2f353837346634666434666662646c6f676f2d636f6e736572746f2d706963746f6772616d6d652e706e67" height="14">)</em>
-<strong>Février 2020 - Juillet 2020</strong>
-Contexte : Améliorer la forge logicielle de CGM avec un mécanisme d&#8217;intégration / livraison en continu (CI / CD) pour tous les projets de développement<br><br>
-&nbsp;¤ Mise en place et configuration de l&#8217;outillage pour l&#8217;intégration continue et le déploiement dédié à une centaine de projets : Jenkins, Sonarqube<br>
-&nbsp;¤ Réalisation des modèles de pipelines pour les projets :<br>
+<hr />
+
+<h3 class="date">02/2020 - 07/2020</h3>
+
+<dl>
+<dt>INGENIEUR DEVOPS</dt>
+<dd>
+<em>CompuGroup Medical - Montpellier, France</em>
+• Mise en place et configuration d&#8217;une CI/CD dédiée à une centaine de projets : Jenkins, Sonarqube<br>
+• Réalisation des modèles de pipelines pour les projets :<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- C# : Build du projet, exécution des tests unitaires NUnit3 et TestsCoverages avec OpenCover, analyse de la qualimétrie avec SonarQube, livraison en continu  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Nuget (package .NET) : Build de la solution Visual Studio, exécution des tests unitaires NUnit3 et TestsCoverages avec OpenCover, analyse de la qualimétrie avec SonarQube, déploiement vers Artifactory<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Packaging Innosetup (génération d&#8217;archives autoextractibles) : Création et livraison d&#8217;un setup.exe depuis des binaires déjà  existants.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Docker <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nuget (package .NET) : Build de la solution Visual Studio, exécution des tests unitaires NUnit3 et TestsCoverages avec OpenCover, analyse de la qualimétrie, déploiement vers Artifactory<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Packaging Innosetup (génération d&#8217;archives autoextractibles) : Création et livraison d&#8217;un setup.exe depuis des binaires déjà existants.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Docker (génération des images via Dockerfile et stockage dans la registry Artifactory<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
 Scripting : Groovy, Bash Shell, Powershell, Cake (C#)<br>
 DevOps : Jenkins, SonarQube, Gitlab, Docker, Artifactory, Teamcity<br>
 Outils : Visual Studio, NUnit, OpenCover, Nuget, Git, Gitversion, FinalBuilder, Innosetup, XMind (mindmaps des pipelines)<br>
-Equipe de 2/3 personnes</dd>
+Equipe de 2/3 personnes - Mission via la société de services : Conserto Montpellier</dd>
+</dl>
 
-<dt>Enercal.nc</dt>
-<dd><em>Développeur PHP (ISI.nc <img src="https://isi.nc/images/logo_isi_final.png" height="10">)</em>
-<strong>Février 2019 - Août 2019</strong>
-Contexte : Développement du backend de l&#8217;application mobile d&#8217;Enercal, gestionnaire du système électrique néocalédonien. Les 3 derniers mois en télétravail depuis la Nouvelle-Zélande<br><br>
-&nbsp;¤ Développement du backend de l&#8217;application mobile Enercal (API REST basée sur un CMS Drupal 7) <br>
-&nbsp;¤ Réalisation du contrat d&#8217;interface de l&#8217;API (documentation réutilisée par le client en interne) <br>
-&nbsp;¤ Tests de charge / tests unitaires avec Jmeter.<br>
+<hr />
+
+<h3 class="date">02/2019 - 08/2019</h3>
+
+<dl>
+<dt>INGENIEUR DEVELOPPEMENT PHP</dt>
+<dd>
+<em>Enercal (principal fournisseur d&#8217;énergie en NC) - Nouméa, Nouvelle-Calédonie</em>
+Contexte : Développement du backend de l&#8217;application mobile d&#8217;Enercal, gestionnaire du système électrique néocalédonien. Les 3 derniers mois en télétravail depuis la Nouvelle-Zélande, en temps partiel<br>
+• Développement de l&#8217;API REST en PHP, basée sur un CMS Drupal 7<br>
+• Réalisation du contrat d&#8217;interface de l&#8217;API (documentation réutilisée par le client en interne) <br>
+• Tests de charge / tests unitaires avec Jmeter.<br>
 <br><u>Environnement technique et fonctionnel</u><br>
-Développement : PHP/MySQL (CMS Drupal 7), Postman, Jmeter, Docker, Gradle, Git.<br>
-Méthodologie : Agile (Scrum, Sprints de 2semaines) - Equipe de 2 à 4 personnes</dd>
+Développement : PHP/MySQL, Postman, Jmeter, Docker, Gradle, Git.<br>
+Méthodologie : Agile (Scrum, Sprints de 2semaines) - Equipe de 2 à 4 personnes<br></dd>
+</dl>
 
-<dt>Société Le Nickel (SLN)</dt>
-<dd><em>Développeur JAVA  (ISI.nc <img src="https://isi.nc/images/logo_isi_final.png" height="10">)</em>
-<strong>Janvier 2017 - Février 2019</strong>
-Une mission très challengeante car j&#8217;ai beaucoup appris en très peu de temps sur Kafka, Elasticsearch et l&#8217;écosystème K8s dans cette petite startup néocalédonienne (ISI), précurseuse dans ses choix technologiques.<br>
-Développement en équipe (plateau) sur plusieurs applications de la SLN, basées sur le même socle : Architecture micro-services, intégration continue et déploiement automatisé d&#8217;images docker via Gitlab CI / Jenkins vers des infras K8s. Principalement :<br>
-&nbsp;¤ Projet d&#8217;interconnexion de Maximo (logiciel EAM commercialisé par IBM) avec Reflex (un logiciel WMS produit par le groupe Hardis). Les flux de Maximo (entrée) sont obtenus via la base Oracle et un autre projet interne permettant d&#8217;envoyer les données Oracle vers Kafka en temps réel. Les données sont ajustées selon les types de données puis écrites dans des topics Kafka (tampon/scaling) dédiés. Plusieurs jobs Java viendront ensuite dépiler les messages des topics Kafka et effectuer les appels SOAP vers le webservice de Reflex (sortie).<br>
-&nbsp;¤ Projet permettant le suivi de la flotte et des horamètres des véhicules de la SLN en temps réel via l&#8217;interconnexion des APIs REST d&#8217;Hexagon (logiciel australien de suivi de mines) et de la société fournissant les coordonnées GPS des véhicules (données en entrée)<br>
-&nbsp;¤ Application de suivi exact et détaillé du stock d&#8217;explosifs de la SLN via une interface dédiée et épurée basée sur les données de Maximo<br>
-&nbsp;¤ Application en ligne permettant la déclaration des conflits d&#8217;intérêts potentiels au sein de la SLN<br>
-&nbsp;¤ Projet permettant de simplifier grandement la saisie des bons de travaux dans Maximo.<br><br>
-Suivi de la qualité du code avec SonarQube, taux de couverture des tests unitaires > 70%<br>
+<hr />
+
+<h3 class="date">01/2017 - 02/2019</h3>
+
+<dl>
+<dt>INGENIEUR DEVELOPPEMENT JAVA</dt>
+<dd>
+<em>Société Le Nickel (principal industriel en NC) - Nouméa, Nouvelle-Calédonie</em>
+Développement en équipe (plateau) sur plusieurs applications Java de la SLN, basées sur le même socle : Architecture micro-services, intégration continue et déploiement automatisé d&#8217;images docker via Gitlab CI / Jenkins vers des infras Kubernetes. Principalement :<br>
+• Projet permettant le suivi de la flotte et des horamètres des véhicules de la SLN en temps réel via l&#8217;interconnexion des APIs REST d&#8217;Hexagon (logiciel australien de suivi de mines) et de la société néocalédonienne fournissant les coordonnées GPS des véhicules<br>
+• Projet d&#8217;interconnexion de Maximo (logiciel de gestion d&#8217;actifs par IBM) avec Reflex (un logiciel de gestion logistique par Hardis). <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Pour résumer : Maximo (Oracle2Kafka) => Kafka (tampon/scaling) => Reflex (appels SOAP)<br>
+• Application de suivi exact et détaillé du stock d&#8217;explosifs de la SLN via une interface dédiée et épurée basée sur les données de Maximo<br>
+• Application en ligne permettant la déclaration des conflits d&#8217;intérêts potentiels au sein de la SLN<br>
+• Projet permettant de simplifier la saisie des bons de travaux dans Maximo en modifiant directement sa base de données.<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
 Développement : Java8, Kafka Streams, Elasticsearch, Guice/Springboot, Gradle, Git. <br>
-DevOps : Gitlab CI, Jenkins, Sonarqube, Docker, kubectl (Kubernetes)<br>
+DevOps : Gitlab CI, Jenkins, Sonarqube (taux de couverture des tests > 70%), Docker, Kubernetes<br>
 Méthodologie : Agile (Scrum, Sprints de 2semaines) - Equipe de 2 à 5 personnes</dd>
+</dl>
 
-<dt>Ministère de la défense - SMSIF</dt>
-<dd><em>Développeur C# (SopraSteria<img src="https://e7.pngegg.com/pngimages/397/511/png-clipart-sopra-steria-orange-s-a-chief-executive-credit-agricole-canal-sop-orange-logo.png" height="13">)</em>
-<strong>Juillet 2015 - Décembre 2016</strong>
-Contexte : Le service ministériel des systèmes d&#8217;information de fonctionnement (SMSIF) est l&#8217;organisme chargé de la tierce-maintenance applicative de systèmes d&#8217;informations des ressources humaines du Ministère de la Défense. Ma mission porte sur le projet Louvois, permettant la gestion de la solde des militaires, du calcul des indemnités au virement pour chaque administré.
-Développement et MCO du calculateur (application console C#) 
-&nbsp;¤ Réalisation des évolutions et amélioration la qualité du code (SonarQube)
-&nbsp;¤ Maintenance corrective du calculateur (analyse et correction de bugs).
+<hr />
+
+<h3 class="date">07/2015 - 12/2016</h3>
+
+<dl>
+<dt>INGENIEUR DEVELOPPEMENT C#</dt>
+<dd>
+<em>Ministère de la défense (Service ministériel des SI de fonctionnement) - Tours, France</em>
+Contexte : Le SMSIF-RH est l&#8217;organisme chargé de la tierce-maintenance applicative de systèmes d&#8217;informations des ressources humaines du Ministère de la Défense français. Ma mission portait sur le projet Louvois, permettant la gestion de la solde des militaires, du calcul des indemnités au virement pour chaque administré.<br>
+• Développement (ou évolution) des indemnités dans le calculateur (application console C#)<br>
+• Réalisation des évolutions et amélioration la qualité du code (SonarQube)<br>
+• Maintenance corrective du calculateur (analyse et correction de bugs)<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
 Développement : C#, Visual Studio 2012, Oracle 11G, Microsoft TFS (Versionning), SonarQube<br>
-DevOps : GitlabCI, Jenkins, Sonarqube, Docker, Kubernetes<br>
 Méthodologie : Cycle en V sur délai court (3/4 semaines) - Equipe de 10 à 15 personnes</dd>
+</dl>
 
-<dt>Ministère de la défense - SMSIF</dt>
-<dd><em>Intégrateur Technique (SopraSteria<img src="https://e7.pngegg.com/pngimages/397/511/png-clipart-sopra-steria-orange-s-a-chief-executive-credit-agricole-canal-sop-orange-logo.png" height="13">)</em>
-<strong>Février 2014 - Juillet 2015</strong>
-Intégration technique des différents modules de l&#8217;application Louvois (chacun ayant son langage de programmation propre : Java, C#, Oracle&#8230; ou étant un logiciel tiers).<br />
-&nbsp;¤ Développement et MCO de l&#8217;intégration technique et de l&#8217;intégration continue de l&#8217;application Louvois
-&nbsp;¤ Conception et mise à jour des scripts shell (bash/Linux) ainsi que des builds de l&#8217;intégration continue (builds manuels)
-&nbsp;¤ Analyse et remontées des informations d&#8217;erreurs lors des cycles de tests
-&nbsp;¤ Maintien de la documentation technique et des procédures
+<hr />
+
+<h3 class="date">02/2014 - 07/2015</h3>
+
+<dl>
+<dt>INGENIEUR INTEGRATION TECHNIQUE</dt>
+<dd>
+<em>Ministère de la défense (Service ministériel des SI de fonctionnement) - Tours, France</em>
+Intégration technique des différents modules de l&#8217;application Louvois (chacun ayant son langage de programmation propre : Java, C#, Oracle&#8230; ou étant un logiciel tiers).<br>
+• Développement et MCO de l&#8217;intégration technique et de l&#8217;intégration continue de l&#8217;application Louvois<br>
+• Scripting (shell bash) pour la réalisation des builds de l&#8217;intégration continue (builds manuels)<br>
+• Analyse et remontées des informations d&#8217;erreurs lors des cycles de tests<br>
+• Maintien de la documentation technique et des procédures<br>
 <br>
 <u>Environnement technique et fonctionnel</u><br>
 Développement : Bash shell, Linux (Debian/CentOS), Microsoft TFS (Versionning), Oracle 11G<br>
-Méthodologie : Cycle en V sur délai court (3/4 semaines) - Equipe de 2 à 3 personnes, mixte prestataire / personnel du Ministère de la Défense.</dd>
+Méthodologie : Cycle en V sur délai court (3/4 semaines) - Equipe de 2 à 3 personnes</dd>
+</dl>
 
-<dt>Hexacomb <img src="https://www.orconind.com/wp-content/uploads/2018/07/hexacomb-logo-1.jpg" height="22" style="vertical-align: middle;"></dt>
-<dd><em>Apprenti ingénieur</em>
-<strong>Sept 2010 - Sept 2013</strong>
-Responsable informatique de l’entreprise  : Gestion des sauvegardes, Active Directory, Installations logicielles/matérielles, Mise en place fibre optique (suivi de prestation externe)<br>
-Réalisation d’un système de supervision en temps réel de l’état des machines de production (en fonctionnement, en réglage, ou machine inutilisée), avec un historique des jours, mois, années précédents. <br>
-&nbsp;¤ Analyse, tests de faisabilité et rédaction du cahier de spécification. 
-&nbsp;¤ Mise au point d&#8217;un système embarqué (logiciel et électronique) permettant de récupérer les informations des capteurs (installés sur une machine industrielle) afin de les transmettre au serveur web.
-&nbsp;¤ Réalisation du site intranet permettant un affichage interactif et temps réel des données obtenues.
-<br>
-<u>Environnement technique</u><br>
-Matériel : Raspberry Pi, capteurs de courant / distance<br>
-Développement : Java, JS/Ajax, CSS, PHP/MySQL<br></dd>
+<hr />
 
-<dt>Polytech Tours <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Logo_Polytech_Tours.svg" height="22" style="vertical-align: middle;"></dt>
-<dd><em>Projet de fin d&#8217;études</em>
-<strong>Janvier 2013 - Juillet 2013</strong>
-Réalisation d’un système de supervision d’une centrale photovoltaïque (3panneaux, 525Wc), permettant l’affichage en continu des informations de production d’énergie, ainsi que les données issues d’une station météo (dans le but d’en mesurer l’impact sur notre production). <br>
-Un projet très enrichissant (et toujours d&#8217;actualité 10ans après) alliant informatique, électronique et mécanique.<br><br>
-&nbsp;¤ Analyse, test de faisabilité et rédaction du cahier de spécification.<br>
-&nbsp;¤ Fabrication des supports métalliques pour les panneaux photovoltaïques.<br>
-&nbsp;¤ Développement d&#8217;une application JAVA, dont le but est de collecter les donnéees des micro-onduleurs ainsi que de la station météo, afin de pouvoir les communiquer au serveur web.<br>
-&nbsp;¤ Réalisation d&#8217;un site intranet sur la base d&#8217;EmonCMS, un projet open-source lui aussi toujours d&#8217;actualité qui permet de traiter et afficher des données temps-réel liées à la production / consommation d&#8217;énergie (et autres infos temps réel).<br>
+<h3 class="date">01/2013 - 07/2013</h3>
+
+<dl>
+<dt>Apprentissage : Projet de fin d&#8217;études - à l&#8217;école</dt>
+<dd>
+<em>Ecole Polytechnique de l&#8217;Université de Tours, France</em>
+Réalisation d’un système de supervision d’une centrale photovoltaïque (3 panneaux soit 525Wc), permettant l’affichage en continu des informations de production d’énergie, ainsi que les données issues d’une station météo (dans le but d’en mesurer l’impact sur notre production). <br>
 <br>
 <u>Environnement technique</u><br>
 Matériel : Micro-onduleurs Enecsys, Station météo Davis, Traqueurs solaires <br>
-Développement : Java, JS/Ajax, CSS, PHP/MySQL<br>
+Développement : Java, JS/Ajax, CSS, PHP/MySQL (base EmonCMS pour le site intranet)<br>
 Protocoles : Analyse de trames Zigbee, Protocole série de la station Davis<br></dd>
 </dl>
 
 <hr />
 
-<p><br>
-<br></p>
-
-<h3 id="experience"><img src="https://cdn-icons-png.flaticon.com/24/114/114806.png" alt="edu" /> Formation</h3>
+<h3 class="date">09/2010 - 09/2013</h3>
 
 <dl>
-<dt>Ingénieur en Informatique Industrielle</dt>
-<dd><em>Ecole Polytech&#8217; Tours</em>
-<strong>2010-2013</strong></dd>
-
-<dt>BTS I.R.I.S. (Informatique et Réseaux)</dt>
-<dd><em>Lycée Grandmont - Tours</em>
-<strong>2008-2010</strong></dd>
+<dt>Apprentissage : Projet de fin d&#8217;études - en entreprise</dt>
+<dd>
+<em>Hexacomb SA (Industrie du cartonnage) - Amboise, France</em>
+• Réalisation d’un système de supervision en temps réel de l’état des machines de production (pour suivre les cadences de fabrication sur chaque chaine), avec un historique des jours, mois, années précédents. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Mise au point d&#8217;un système embarqué (logiciel et électronique avec capteurs) permettant de récupérer les informations des machines pour les envoyer par WiFi au serveur web<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Réalisation du site intranet permettant un affichage interactif et temps réel des données obtenues<br>
+<br>
+<u>Environnement technique</u><br>
+Matériel : Raspberry Pi, capteurs de courant / distance<br>
+Développement : Java, JS/Ajax, CSS, PHP/MySQL (base EmonCMS pour le site intranet)<br></dd>
 </dl>
 
-<hr />
+<hr class="hiddenhr">
 
-<h3 id="technical"><img src="https://cdn-icons-png.flaticon.com/24/3075/3075873.png" alt="hobbies" /> Hobbies</h3>
+<h2 class="h2short">Formations</h2>
+
+<h3 class="date">2010-2013</h3>
+
+<dl>
+<dt>Ingénieur en Informatique Industrielle, par alternance</dt>
+<dd><em>Ecole Polytechnique de l&#8217;Université de Tours, France</em>
+Alternance dans l&#8217;entreprise Hexacomb SA (aujourd&#8217;hui Smurfit Kappa), Industrie du cartonnage</dd>
+</dl>
+
+<h3 class="date">2008-2010</h3>
+
+<dl>
+<dt>BTS Informatique et Réseaux pour l&#8217;Industrie et les Services techniques (IRIS)</dt>
+<dd><em>Lycée Grandmont - Tours, France</em></dd>
+</dl>
+
+<hr class="hiddenhr">
+
+<h2 class="h2short">Références</h2>
 
 <ol>
-<li>Course à pied</li>
-<li>Cyclisme / VTT</li>
-<li>Lecture</li>
-<li>Photographie</li>
-<li>Dev / Scripting</li>
-<li>Trading</li>
+<li>Safaa Lalou <br>(Dir. Agence Conserto)</li>
+<li>Maryan Brussot <br>(Resp. Equipe France-Travail)</li>
+<li>Cyril Vacher / Sylvain Kozma <br>(Collègues France-Travail)</li>
 </ol>
 
-<hr />
+<hr class="hiddenhr">
+
+<h2 class="h2short">Hobbies</h2>
+
+<ol>
+<li>Course à pied | VTT</li>
+<li>Lecture</li>
+<li>Photographie</li>
+<li>Dev | Scripting</li>
+<li>Trading</li>
+<li>Personal Knowledge Management</li>
+</ol>
+
+<hr class="hiddenhr">
 
 <h3 id="footer">Footer</h3>
 
-<p>Xavier Touron &#8212; <a href="mailto:contact@xtodev.fr">contact@xtodev.fr</a> &#8212; 07.66.65.32.68 &#8212; <a href="https://github.com/xtodev/cv" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/32/linkedin_icon_135436.png" height="16" width="16" style="vertical-align: middle;"></a></p>
-
-<hr />
+<p>Xavier Touron &#8212; <a href="mailto:contact@xtodev.fr">contact@xtodev.fr</a> &#8212; (+33) 7.66.65.32.68 &#8212; <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a></p>
 
     </div>
 </div>
