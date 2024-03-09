@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: there4/markdown-resume:2.3.1
-      options: --user root -v "${GITHUB_WORKSPACE}/assets/swissen2:/app/templates/swissen2"
+      options: --user root -v "./assets/swissen2:/app/templates/swissen2"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
