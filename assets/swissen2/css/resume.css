@@ -1,0 +1,356 @@
+.clearfix {
+  zoom: 1;
+	&:after {
+        display: block;
+        visibility: hidden;
+        height: 0;
+        clear: both;
+        content: ".";
+    }
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+}
+
+h1, h2, h3, h4, ul dl dt {
+    font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
+}
+
+h1:before{
+    content: "+";
+    font-weight: bold;
+    color: orange;
+    margin: -1em 0 0 -0.5em;
+    position: relative;
+    top: -0.4em;
+}
+
+pre {
+    display: block;
+    position: relative;
+}
+span {
+    padding: 0;
+    line-height: 1.3em;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+    color: #444;
+}
+.aboutme {
+    width: 600px;
+    float: left;
+    clear: left;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.identity {
+    width: 200px;
+    float: right;
+    clear: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: -10px;
+}
+.lang {
+    width: 200px;
+    float: right;
+    clear: right;
+    font-size: small;
+    padding-bottom: 20px;
+    margin-right: -10px;
+}
+
+.container {
+    margin: 25px auto;
+    padding: 0;
+    background: whiteSmoke;
+    border: solid #666;
+    border-width: 25px 0 5px 0;
+    text-align: left;
+}
+
+.date {
+    font-size: small;
+    width: 150px;
+}
+
+.date:after{
+    float: right;
+    margin-top: -7px;
+    content: "|";
+    color: orange;
+    font-size: 300%;
+}
+
+
+.resume {
+    position:relative;
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+a {
+    color: #990003;
+}
+
+a[href$='.pdf']::before {
+    content: url('https://cdn-icons-png.flaticon.com/64/3997/3997593.png');
+    display: inline-block; /* Permet de définir la largeur et la hauteur */
+    width: 32px; /* Définir la largeur souhaitée */
+    height: 32px; /* Définir la hauteur souhaitée */
+}
+
+a[href$='.pdf'] {
+/*    display: inline-block;
+    background: #666;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    text-decoration: none;*/
+    font-size: small;
+    width: 10px;
+    position: absolute;
+    top: -70px;
+    left : 100%;
+
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 18px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 2px solid #cccccc;
+    font-size: 1px;
+    line-height: 0;
+    overflow: visible;
+    page-break-after: avoid;
+}
+
+.hiddenhr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 18px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 2px solid whitesmoke;
+    font-size: 1px;
+    line-height: 0;
+    overflow: visible;
+    page-break-after: avoid;
+}
+
+.hiddenhrinpdf {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 18px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 2px solid #cccccc;
+    font-size: 1px;
+    line-height: 0;
+    overflow: visible;
+    page-break-after: avoid;
+}
+
+hr ~ h2 {
+    border-top: 0px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 .5em;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+    padding: 0 0 .5em;
+    font-size: small;
+    width: 150px;
+}
+
+
+h3+p {
+    margin: 0 0 16px;
+    padding: 0;
+    display: block;
+    font-size: 104%;
+    line-height: 24px;
+}
+
+h3 br + * {
+    font-size: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li {
+    margin: 0;
+    padding: 0;
+    flex-basis: 33%;
+}
+
+ul dl {
+    margin: .3em 0 0;
+    padding: 0;
+    width: 100%;
+    dt {
+        font-size: 100%;
+    }
+    dd {
+        margin: 0 0 1em;
+        padding: 0 2em 0 0;
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+}
+
+ol {
+    margin: 0;
+    padding: 0 0 .75em;
+    width: 80%;
+    display: inline-block;
+}
+
+ol li {
+    margin: 0 0 0 1em;
+    padding: 0;
+    border-top: 1px solid #CCCCCC;
+    width: 100%;
+    float: left;
+    list-style: none;
+    line-height: 24px;
+    font-size: 14px;
+}
+ol li:nth-child(1) {
+    border-top: none;
+}
+
+dl {
+    float:left;
+    display: block;
+    /*display: inline-block;*/
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    
+    dt {
+        margin: 0;
+        padding: 0;
+        font-size: 90%;
+        font-weight: bold;
+    }
+    dd {
+        margin: 0 0 1.5em;
+        padding: 0;
+        font-size: 80%;
+        line-height: 1.4em;
+    }
+    strong {
+        display: block;
+        padding-top: 9px;
+        margin-left: -40px;
+        font-size: 102%;
+    }
+    em {
+        display: block;
+        font-size: 110%;
+        margin: .15em 0 .5em;
+        font-style: bold;
+    }
+}
+
+dl dd li{width: 100%; margin: 0 1em 1em; list-style-type: square;}
+dl dt{display: block; clear: both;}
+dl dt{border-top: 1px solid #ccc; padding-top: 1em;}
+h3 + dl dt:first-child{border: 0;padding-top: 0;}
+dl dd p:first-child{font-weight: bold; text-transform: uppercase; font-size: 1.2em;}
+
+ul li dt{border: 0; padding-top: 0;}
+
+.h2long {
+    background: whiteSmoke;
+    text-align: left;
+    content: "";
+    display: block;
+    width: 60%;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.h2short {
+    background: whiteSmoke;
+    text-align: left;
+    content: "";
+    display: block;
+    width: 30%;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#footer {
+    display: none;
+}
+
+#footer + p {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 0 0px;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+    margin-top: -67px;
+    margin-right: 30px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border: solid whiteSmoke;
+    border-width: 5px;
+}
+#subheading {
+    margin-bottom: 30px;
+  }

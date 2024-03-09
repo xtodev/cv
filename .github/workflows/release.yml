@@ -5,16 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: there4/markdown-resume:2.3.1
-      options: --user root
+      options: --user root -v "${GITHUB_WORKSPACE}/assets/swissen2:/app/templates/swissen2"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Make pdf (CV full)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv_full.md .
-      - name: Make html (CV full)
-        run: md2resume html --template swissen ${GITHUB_WORKSPACE}/cv_full.md .
-      - name: Make pdf (CV short)
-        run: md2resume pdf --template swissen ${GITHUB_WORKSPACE}/cv.md .
+      - name: Make pdf (CV pdf)
+        run: md2resume pdf --template swissen2 ${GITHUB_WORKSPACE}/cv.md .
+      - name: Make html (CV html)
+        run: md2resume html --template swissen2 ${GITHUB_WORKSPACE}/cv.md .
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -25,18 +23,8 @@ jobs:
           release_name: CV
           draft: false
           prerelease: false
-      - name: Release CV full PDF
-        id: upload-cvfull-pdf
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./cv_full.pdf
-          asset_name: CV_Touron_Xavier_Full.pdf
-          asset_content_type: application/pdf
-      - name: Release CV short PDF
-        id: upload-cvshort-pdf
+      - name: Release CV PDF
+        id: upload-cv-pdf
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,28 +33,28 @@ jobs:
           asset_path: ./cv.pdf
           asset_name: CV_Touron_Xavier.pdf
           asset_content_type: application/pdf
-      - name: Release CV full HTML
-        id: upload-cvfull-html
+      - name: Release CV HTML
+        id: upload-cv-html
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./cv_full.html
-          asset_name: CV_Touron_Xavier_Full.html
-          asset_content_type: application/pdf
+          asset_path: ./cv.html
+          asset_name: CV_Touron_Xavier.html
+          asset_content_type: text/html
   deploy:
     needs: make
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Fetch Release cv_full
+      - name: Fetch Release CV
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'xtodev/cv'
           version: 'tags/${{ github.run_id }}'
-          file: 'CV_Touron_Xavier_Full.html'
+          file: 'CV_Touron_Xavier.html'
           target: 'index.html'
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to Github pages

@@ -1,0 +1,140 @@
+body.pdf {
+    color: black;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .container {
+        background: none;
+    }
+
+    .date:after{
+        margin-top: -8px;
+    }
+
+    span {
+        background-color: white;
+    }
+
+    .resume {
+        position:relative;
+        padding: 40px 25px;
+    }
+
+    .identity {
+        margin-right: 10px;
+    }
+
+    .lang {
+        margin-top: -10px;
+        margin-right: 10px;
+        padding-bottom: 0px;
+    }
+
+    .hiddenhr {
+        border-top: 2px solid white;
+    }
+
+    .hiddenhrinpdf {
+        border-top: 2px solid white;
+    }
+
+    hr {
+        margin: 8px auto;
+    }
+
+    a[href$='.pdf'] {
+        display: none;
+    }
+
+    h1 {
+        letter-spacing: 0;
+        margin-top: 0;
+        font-size: 48px;
+        text-transform: none;
+    }
+    h2 {
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    h3 {
+        float: left;
+        width: 20%;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    h3+p {
+        float: left;
+        width: 80%;
+    }
+
+    blockquote {
+        top: 40px;
+        right: 50px;
+        position: absolute;
+    }
+
+
+    ul dl {
+        margin: 0;
+        padding: 0.3em 0 0;
+        dt {
+            font-size: 122%;
+            font-weight: normal;
+            margin: 0 0 .75em;
+        }
+        dd {
+            padding: 0 4em 0 0;
+        }
+    }
+
+    ol {
+        float: left;
+        width: 95%;
+        margin-left: 1em;
+    }
+
+    ol li {
+        width: 33%;
+        margin: 0;
+    }
+    ol li:nth-child(3n) {
+        width: 34%;
+    }
+    ol li:nth-child(1), ol li:nth-child(2), ol li:nth-child(3) {
+        border-top: none;
+    }
+
+    dl {
+        margin: .7em 0 0;
+        /*page-break-inside: avoid !important;*/
+        display: block;
+        strong {
+            float: right;
+            margin-top: -2em;
+        }
+        em {
+            font-size: 120%;
+            font-style: normal;
+        }
+
+    }
+
+    .h2long {
+        background: white;
+    }
+    
+    .h2short {
+        background: white;
+    }
+
+    #photo {
+        margin-top: -61px;
+        margin-right: 30px;
+        box-shadow: 0px -4px 0px 1px white, rgba(0, 0, 0, 0.2 4) 0px 3px 8px;
+        border-width: 0px;
+    }
+}
