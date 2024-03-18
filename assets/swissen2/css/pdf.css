@@ -8,6 +8,8 @@ body.pdf {
     
     .container {
         background: none;
+        border-left-color: white;
+        border-right-color: white;
     }
 
     .date:after{

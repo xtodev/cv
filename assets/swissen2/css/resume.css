@@ -48,7 +48,7 @@ span {
     width: 200px;
     float: right;
     clear: right;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     font-size: small;
     font-weight: bold;
     padding-bottom: 20px;
@@ -67,8 +67,12 @@ span {
     margin: 25px auto;
     padding: 0;
     background: whiteSmoke;
-    border: solid #666;
-    border-width: 25px 0 5px 0;
+    border-top-color: #666;;
+    border-bottom-color: #666;
+    border-left-color: whiteSmoke;
+    border-right-color: whiteSmoke;
+    border-style: solid;
+    border-width: 25px 0px 5px 0px;
     text-align: left;
 }
 
