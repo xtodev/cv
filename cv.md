@@ -184,9 +184,9 @@ Apprentissage : Projet de fin d'études - en entreprise
 
 ## Formations {.h2short}
 
-### Octobre 2020 {.date}
-Professional Scrum Master I (PSM I)
-: *<a href="https://www.scrum.org/user/735488" target="_blank">Scrum.org</a>*
+### depuis 2020 {.date}
+Formations spécifiques
+: Ansible (2j) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Bases d'AWS (3j) via Conserto
 
 ### 2010-2013 {.date}
 Ingénieur en Informatique Industrielle, par alternance
