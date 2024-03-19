@@ -93,13 +93,13 @@
     blockquote {
         display: none;
      }
-    .aboutme {
+    #aboutme {
         width: 100%;
     }
-    .identity {
+    #identity {
         width: 100%;
     }
-    .lang {
+    #lang {
         width: 100%;
     }
     a[href$='.pdf'] {
@@ -128,13 +128,13 @@
        margin-top: -60px;
        margin-left: 81%;
     }
-    .aboutme {
+    #aboutme {
         width: 65%;
     }
-    .identity {
+    #identity {
         width: 35%;
     }
-    .lang {
+    #lang {
         width: 35%;
     }
 
@@ -180,13 +180,13 @@
        margin-top: -50px;
        margin-left: 75%;
     }
-    .aboutme {
+    #aboutme {
         width: 65%;
     }
-    .identity {
+    #identity {
         width: 35%;
     }
-    .lang {
+    #lang {
         width: 35%;
     }
     .date:after{
