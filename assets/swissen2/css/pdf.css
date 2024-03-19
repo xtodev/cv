@@ -25,11 +25,11 @@ body.pdf {
         padding: 40px 25px;
     }
 
-    .identity {
+    #identity {
         margin-right: 10px;
     }
 
-    .lang {
+    #lang {
         margin-top: -10px;
         margin-right: 10px;
         padding-bottom: 0px;
@@ -48,6 +48,9 @@ body.pdf {
     }
 
     a[href$='.pdf'] {
+        display: none;
+    }
+    #langselect {
         display: none;
     }
 
@@ -122,7 +125,6 @@ body.pdf {
             font-size: 120%;
             font-style: normal;
         }
-
     }
 
     .h2long {
