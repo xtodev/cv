@@ -19,7 +19,7 @@ Curious by nature, I have an insatiable appetite for learning new technologies.
 contact@xtodev.fr<br>
 Lives in Montpellier, FR<br>
 <br>
-Civil partnership <br> 2 children<br>
+Cohabitation - 2 children<br>
 Age 34<br>
 French nationality
 </span>
@@ -136,11 +136,12 @@ C# DEVELOPMENT ENGINEER
   Context: The SMSIF-RH is the organisation responsible for the third-party application maintenance of the French Ministry of Defence's human resources information systems. My assignment was on the Louvois project, which manages the wages of military personnel, from the calculation of allowances to the payment for each member of the armed forces.<br>
   • Development (or upgrade) of allowances in the calculator (C# console application)<br>
   • Maintenance, upgrades and improvements to code quality (SonarQube)<br>
+  <br>
   <u>Technical and functional environment</u><br>
   Development : C#, Visual Studio 2012, Oracle 11G, Microsoft TFS (Versionning), SonarQube<br>
   Work methodology : V cycle on a short timescale (3/4 weeks) - Team of 10 to 15 people
 
-<hr class="hiddenhrinpdf"><br><br>
+---
 
 ### 02/2014 - 07/2015 {.date}
 TECHNICAL INTEGRATION ENGINEER
@@ -150,7 +151,6 @@ TECHNICAL INTEGRATION ENGINEER
   • Development and maintenance of the technical integration and continuous integration of the Louvois application<br>
   • Bash shell scripting for continuous integration builds (manual builds)<br>
   • Analysis and feedback of error information during test cycles<br>
-  • Maintenance of technical documentation and procedures.<br>
   <br>
   <u>Technical and functional environment</u><br>
   Development : Bash shell, Linux (Debian/CentOS), Microsoft TFS (Versionning), Oracle 11G<br>
@@ -186,7 +186,7 @@ Apprenticeship: Final year project - in company
 ## Education and courses {.h2short}
 
 ### Since 2020 {.date}
-Specific training
+Specialized training
 : Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basis of AWS (3d) via Conserto
 
 ### 2010-2013 {.date}
