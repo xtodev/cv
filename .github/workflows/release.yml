@@ -32,7 +32,7 @@ jobs:
           draft: false
           prerelease: false
       - name: Release CV PDF (FR)
-        id: upload-cv-pdf
+        id: upload-cv-pdf-fr
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
           asset_name: CV_Touron_Xavier.pdf
           asset_content_type: application/pdf
       - name: Release CV PDF (EN)
-        id: upload-cv-pdf
+        id: upload-cv-pdf-en
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,7 +52,7 @@ jobs:
           asset_name: CV_Touron_Xavier_EN.pdf
           asset_content_type: application/pdf
       - name: Release CV HTML (FR)
-        id: upload-cv-html
+        id: upload-cv-html-fr
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +62,7 @@ jobs:
           asset_name: CV_Touron_Xavier.html
           asset_content_type: text/html
       - name: Release CV HTML (EN)
-        id: upload-cv-html
+        id: upload-cv-html-en
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -77,7 +77,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Fetch Release CV
+      - name: Fetch Release CV (FR)
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'xtodev/cv'
@@ -85,7 +85,7 @@ jobs:
           file: 'CV_Touron_Xavier.html'
           target: 'index.html'
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Fetch Release CV
+      - name: Fetch Release CV (EN)
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'xtodev/cv'
