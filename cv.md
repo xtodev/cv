@@ -75,7 +75,7 @@ INGENIEUR DEVELOPPEMENT JAVA
   DevOps : Docker, Gitlab CI, Ansible, Nexus (Registry)<br>
   Méthodologie : Agile (Scrum, Sprints de 3 semaines) - Equipe de 4 à 6 personnes<br>
 
-<br><hr class="hiddenhrinpdf"><br><br>
+<hr class="hiddenhrinpdf">
 
 ### 02/2020 - 07/2020 {.date}
 INGENIEUR DEVOPS
@@ -186,7 +186,7 @@ Apprentissage : Projet de fin d'études - en entreprise
 
 ## Formations {.h2short}
 
-### depuis 2020 {.date}
+### Depuis 2020 {.date}
 Formations spécialisées
 : Ansible (2j) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Bases d'AWS (3j) via Conserto
 
