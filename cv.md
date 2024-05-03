@@ -34,7 +34,7 @@ Allemand - Débutant (A1/A2)
 ## EXPERIENCE PROFESSIONNELLE {.h2long}
 
 ### Depuis 02/2022 {.date}
-INGENIEUR DEVOPS
+INGENIEUR DEVOPS <span class="ssii"> (SSII Conserto)</span>
 : 
 *France-Travail (Pôle-Emploi) - Montpellier, France*
   Mission au sein de l'équipe Ops chargée de la centralisation des logs et des collectes bigdata<br>
@@ -62,7 +62,7 @@ INGENIEUR DEVOPS
 ---
 
 ### 08/2020 - 01/2022 {.date}
-INGENIEUR DEVELOPPEMENT JAVA
+INGENIEUR DEVELOPPEMENT JAVA <span class="ssii"> (SSII Conserto)</span>
 : 
 *SADA Assurances - Nîmes, France*
   • Développement d'une API REST micro-service (Java17, Docker) permettant la génération des éditiques de la SADA (attestations, contrats, devis, etc..) via des templates au format Word/Jrxml et les librairies Aspose/Jasper pour la génération des PDF. Gestion de l'authentification et des rôles via Auth0.<br>
@@ -78,7 +78,7 @@ INGENIEUR DEVELOPPEMENT JAVA
 <hr class="hiddenhrinpdf">
 
 ### 02/2020 - 07/2020 {.date}
-INGENIEUR DEVOPS
+INGENIEUR DEVOPS <span class="ssii"> (SSII Conserto)</span>
 :  
 *CompuGroup Medical - Montpellier, France*
   • Mise en place et configuration d'une CI/CD avec Jenkins et Sonarqube, dédiée à une centaine de projets : <br>
@@ -97,7 +97,7 @@ INGENIEUR DEVOPS
 ---
 
 ### 02/2019 - 08/2019 {.date}
-INGENIEUR DEVELOPPEMENT PHP
+INGENIEUR DEVELOPPEMENT PHP <span class="ssii"> (SSII ISI.nc)</span>
 : 
 *Enercal (principal fournisseur d'énergie en NC) - Nouméa, Nouvelle-Calédonie*
   Contexte : Développement du backend de l'application mobile d'Enercal, gestionnaire du système électrique néocalédonien. Les 3 derniers mois en télétravail depuis la Nouvelle-Zélande, en temps partiel<br>
@@ -111,7 +111,7 @@ INGENIEUR DEVELOPPEMENT PHP
 ---
 
 ### 01/2017 - 02/2019 {.date}
-INGENIEUR DEVELOPPEMENT JAVA
+INGENIEUR DEVELOPPEMENT JAVA <span class="ssii"> (SSII ISI.nc)</span>
 : 
   *Société Le Nickel (principal industriel en NC) - Nouméa, Nouvelle-Calédonie*
   Développement en équipe (plateau) sur plusieurs applications Java de la SLN, basées sur le même socle : Architecture micro-services, intégration continue et déploiement automatisé d'images docker via Gitlab CI / Jenkins vers des infras Kubernetes. Principalement :<br>
@@ -130,7 +130,7 @@ INGENIEUR DEVELOPPEMENT JAVA
 ---
 
 ### 07/2015 - 12/2016 {.date}
-INGENIEUR DEVELOPPEMENT C#
+INGENIEUR DEVELOPPEMENT C# <span class="ssii"> (SSII SopraSteria)</span>
 : 
   *Ministère de la défense (Service ministériel des SI de fonctionnement) - Tours, France*
   Contexte : Le SMSIF-RH est l'organisme chargé de la tierce-maintenance applicative de systèmes d'informations des ressources humaines du Ministère de la Défense français. Ma mission portait sur le projet Louvois, permettant la gestion de la solde des militaires, du calcul des indemnités au virement.<br>
@@ -144,7 +144,7 @@ INGENIEUR DEVELOPPEMENT C#
 <hr class="hiddenhrinpdf">
 
 ### 02/2014 - 07/2015 {.date}
-INGENIEUR INTEGRATION TECHNIQUE
+INGENIEUR INTEGRATION TECHNIQUE <span class="ssii"> (SSII SopraSteria)</span>
 : 
   *Ministère de la défense (Service ministériel des SI de fonctionnement) - Tours, France*
   Intégration technique des différents modules de l'application Louvois (chacun ayant son langage de programmation propre : Java, C#, Oracle... ou étant un logiciel tiers).<br>
