@@ -34,7 +34,7 @@ German - Beginner (A1/A2)
 ## PROFESSIONAL EXPERIENCE {.h2long}
 
 ### Since 02/2022 {.date}
-DEVOPS ENGINEER
+DEVOPS ENGINEER <span class="ssii"> (Company: Conserto)</span>
 : 
 *France-Travail (Pôle-Emploi) - Montpellier, France*
   Working as part of the Ops team responsible for centralized logging and big data collection<br>
@@ -62,7 +62,7 @@ DEVOPS ENGINEER
 ---
 
 ### 08/2020 - 01/2022 {.date}
-JAVA DEVELOPMENT ENGINEER
+JAVA DEVELOPMENT ENGINEER <span class="ssii"> (Company: Conserto)</span>
 : 
 *SADA Assurances - Nîmes, France*
   • Development of a microservice REST API (Java17, Docker) enabling the generation of SADA documents (certificates, contracts, quotes, etc.) using templates in Word/Jrxml format and Aspose/Jasper libraries for PDF generation. Authentication and role management via Auth0<br>
@@ -78,7 +78,7 @@ JAVA DEVELOPMENT ENGINEER
 <hr class="hiddenhrinpdf">
 
 ### 02/2020 - 07/2020 {.date}
-DEVOPS ENGINEER
+DEVOPS ENGINEER <span class="ssii"> (Company: Conserto)</span>
 :  
 *CompuGroup Medical - Montpellier, France*
   • Setup and configuration of a CI/CD with Jenkins and Sonarqube, dedicated to around a hundred projects :<br>
@@ -97,7 +97,7 @@ DEVOPS ENGINEER
 ---
 
 ### 02/2019 - 08/2019 {.date}
-PHP DEVELOPMENT ENGINEER
+PHP DEVELOPMENT ENGINEER <span class="ssii"> (Company: ISI.nc)</span>
 : 
 *Enercal (main energy supplier in NC) - Nouméa, New Caledonia*
   Context: Development of the mobile application backend for Enercal, New Caledonia's electricity system manager. I've been working remotely from New Zealand for the last 3 months, on a part-time basis.<br>
@@ -111,7 +111,7 @@ PHP DEVELOPMENT ENGINEER
 ---
 
 ### 01/2017 - 02/2019 {.date}
-JAVA DEVELOPMENT ENGINEER
+JAVA DEVELOPMENT ENGINEER <span class="ssii"> (Company: ISI.nc)</span>
 : 
   *Société Le Nickel (main industrial company in NC) - Nouméa, New Caledonia*
   Team development on several Java applications for SLN, based on the same Micro-services architecture, continuous integration and automated deployment of docker images via Gitlab CI / Jenkins to Kubernetes infrastructure.<br>
@@ -130,7 +130,7 @@ JAVA DEVELOPMENT ENGINEER
 ---
 
 ### 07/2015 - 12/2016 {.date}
-C# DEVELOPMENT ENGINEER
+C# DEVELOPMENT ENGINEER <span class="ssii"> (Company: SopraSteria)</span>
 : 
   *Ministry of Defence (Service ministériel des SI de fonctionnement) - Tours, France*
   Context: The SMSIF-RH is the organisation responsible for the third-party application maintenance of the French Ministry of Defence's human resources information systems. My assignment was on the Louvois project, which manages the wages of military personnel, from the calculation of allowances to the payment for each member of the armed forces.<br>
@@ -144,7 +144,7 @@ C# DEVELOPMENT ENGINEER
 ---
 
 ### 02/2014 - 07/2015 {.date}
-TECHNICAL INTEGRATION ENGINEER
+TECHNICAL INTEGRATION ENGINEER <span class="ssii"> (Company: SopraSteria)</span>
 : 
   *Ministry of Defence (Service ministériel des SI de fonctionnement) - Tours, France*
   Technical integration of the various modules of the Louvois application (each with its own programming language: Java, C#, Oracle... or being third-party software)<br>
@@ -187,7 +187,7 @@ Apprenticeship: Final year project - in company
 
 ### Since 2020 {.date}
 Specialized training
-: Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basis of AWS (3d) via Conserto
+: Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basics of AWS (3d) via Conserto
 
 ### 2010-2013 {.date}
 Industrial Computing Engineer, by apprenticeship

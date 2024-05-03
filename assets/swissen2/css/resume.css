@@ -80,6 +80,11 @@ span {
     margin-right: -10px;
 }
 
+.ssii {
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+}
+
 .container {
     margin: 25px auto;
     padding: 0;
