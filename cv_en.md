@@ -19,7 +19,7 @@ Curious by nature, I have an insatiable appetite for learning new technologies.
 contact@xtodev.fr<br>
 Lives in Montpellier, FR<br>
 <br>
-Cohabitation - 2 children<br>
+Married - 2 children<br>
 Age 34<br>
 French nationality
 </span>
@@ -53,8 +53,8 @@ DEVOPS ENGINEER <span class="ssii"> (Company: Conserto)</span>
   IaC deployment and administration of the centralized logging chain : <br>
   &nbsp;&nbsp;&nbsp;&nbsp;Fluentbit & Apache Nifi => Apache Kafka => Logstash (Grok/RegEx) => Elasticsearch/Kibana<br>
   Containers : Docker - Kubernetes - Helm<br>
-  Monitoring : Prometheus (AlertManager) - Grafana<br>
-  BigData : Apache Nifi, Apache Hive, HDFS, HiveQL<br>
+  Monitoring : Prometheus (AlertManager) - Grafana - OpenTelemetry<br>
+  BigData : Apache Nifi, Apache Hive/Iceberg, HDFS, HiveQL<br>
   DevOps : Concourse, Rancher Fleet (gitOps), Ansible, Artifactory, Trivy/Snyk<br>
   Linux environment (Aix, SLES, Debian)<br>
   Work methodology : Product Operating Model / Agile (Scrum) - Team of 4 to 5 people - Non-functional requirements<br>
@@ -165,8 +165,7 @@ Apprenticeship: Final year project - at school
   Development of a supervision system for a photovoltaic power plant (3 panels, i.e. 525Wp), enabling continuous display of energy production data, as well as data from a weather station (with the aim of measuring the impact on our production). <br>
   <br>
   Equipment : Enecsys microinverters, Davis weather station, solar trackers<br>
-  Development : Java, JS/Ajax, CSS, PHP/MySQL (intranet site based on EmonCMS)<br>
-  Protocols : Zigbee frame analysis, Davis station serial protocol<br>
+  Development : Java, JS/Ajax, CSS, PHP/MySQL (intranet site based on EmonCMS)
 
 ---
 
@@ -179,7 +178,7 @@ Apprenticeship: Final year project - in company
   &nbsp;&nbsp;&nbsp;&nbsp; - Creation of an intranet site enabling real-time interactive display of the data obtained.<br>
   <br>
   Hardware: Raspberry Pi, current/distance sensors<br>
-  Development : Java, JS/Ajax, CSS, PHP/MySQL (intranet site based on EmonCMS)
+  Development : Java, JS/Ajax, CSS, PHP/MySQL
 
 <hr class="hiddenhr">
 
@@ -188,6 +187,7 @@ Apprenticeship: Final year project - in company
 ### Since 2020 {.date}
 Specialized training
 : Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basics of AWS (3d) via Conserto
+  Cloud Azure (5d) : [AZ-900](https://www.youtube.com/watch?v=5abffC-K40c) (Basics) |  [AZ-204](https://www.youtube.com/watch?v=jZx8PMQjobk) (Developer) | [AZ-400](https://www.youtube.com/watch?v=11KT1hPNkY4) (DevOps) via FreeCodeCamp
 
 ### 2010-2013 {.date}
 Industrial Computing Engineer, by apprenticeship
@@ -208,4 +208,4 @@ BTS (BAC+2) in Computer Science and Networks for Industry and Technical Services
 <hr class="hiddenhr">
 
 ### Footer {#footer}
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - March 2024
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - July 2024

@@ -19,7 +19,7 @@ Curieux de nature, j'ai une envie insatiable d'apprendre de nouvelles technologi
 contact@xtodev.fr<br>
 Vit à Montpellier, France<br>
 <br>
-Concubinage - 2 enfants<br>
+Marié - 2 enfants<br>
 34 ans<br>
 Nationalité française
 </span>
@@ -53,8 +53,8 @@ INGENIEUR DEVOPS <span class="ssii"> (SSII Conserto)</span>
   Déploiement IaC et administration de la chaîne de centralisation des logs : <br>
   &nbsp;&nbsp;&nbsp;&nbsp;Fluentbit & Apache Nifi => Apache Kafka => Logstash (Grok/RegEx) => Elasticsearch/Kibana<br>
   Conteneurisation : Docker - Kubernetes - Helm<br>
-  Monitoring : Prometheus (AlertManager) - Grafana<br>
-  BigData : Apache Nifi, Apache Hive, HDFS, HiveQL<br>
+  Monitoring : Prometheus (AlertManager) - Grafana - OpenTelemetry<br>
+  BigData : Apache Nifi, Apache Hive/Iceberg, HDFS, HiveQL<br>
   DevOps : Concourse, Rancher Fleet (gitOps), Ansible, Artifactory, Trivy/Snyk<br>
   Environnement Linux (Aix, SLES, Debian)<br>
   Méthodologie : Mode produit + Agile (Scrum) - Equipe de 4 à 5 personnes - Exigences Non Fonctionnelles<br>
@@ -166,8 +166,7 @@ Apprentissage : Projet de fin d'études - à l'école
   Réalisation d’un système de supervision d’une centrale photovoltaïque (3 panneaux soit 525Wc), permettant l’affichage en continu des informations de production d’énergie, ainsi que les données issues d’une station météo (dans le but d’en mesurer l’impact sur notre production). <br>
   <br>
   Matériel : Micro-onduleurs Enecsys, Station météo Davis, Traqueurs solaires <br>
-  Développement : Java, JS/Ajax, CSS, PHP/MySQL (base EmonCMS pour le site intranet)<br>
-  Protocoles : Analyse de trames Zigbee, Protocole série de la station Davis<br>
+  Développement : Java, JS/Ajax, CSS, PHP/MySQL, Analyse de trames Zigbee
 
 ---
 
@@ -180,7 +179,7 @@ Apprentissage : Projet de fin d'études - en entreprise
   &nbsp;&nbsp;&nbsp;&nbsp; - Réalisation du site intranet permettant un affichage interactif et temps réel des données obtenues<br>
   <br>
   Matériel : Raspberry Pi, capteurs de courant / distance<br>
-  Développement : Java, JS/Ajax, CSS, PHP/MySQL (base EmonCMS pour le site intranet)<br>
+  Développement : Java, JS/Ajax, CSS, PHP/MySQL
 
 <hr class="hiddenhr">
 
@@ -188,7 +187,8 @@ Apprentissage : Projet de fin d'études - en entreprise
 
 ### Depuis 2020 {.date}
 Formations spécialisées
-: Ansible (2j) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Bases d'AWS (3j) via Conserto
+: Ansible (2j) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Bases d'AWS (3j) via Conserto <br>
+  Cloud Azure (5j) : [AZ-900](https://www.youtube.com/watch?v=5abffC-K40c) (Bases) |  [AZ-204](https://www.youtube.com/watch?v=jZx8PMQjobk) (Developer) | [AZ-400](https://www.youtube.com/watch?v=11KT1hPNkY4) (DevOps) via FreeCodeCamp
 
 ### 2010-2013 {.date}
 Ingénieur en Informatique Industrielle, par alternance
@@ -202,11 +202,11 @@ BTS Informatique et Réseaux pour l'Industrie et les Services techniques (IRIS)
 <hr class="hiddenhr">
 
 ## Références {.h2short}
-1. Annabel Alberto <br>(Responsable DSI France-Travail)
+1. Annabel Alberto <br>(Responsable Dept. France-Travail)
 1. Maryan Brussot <br>(Responsable Equipe France-Travail)
 1. Cyril Vacher / Sylvain Kozma <br>(Collègues France-Travail)
 
 <hr class="hiddenhr">
 
 ### Footer {#footer}
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - Mars 2024
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - Juillet 2024
