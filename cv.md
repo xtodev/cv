@@ -20,7 +20,7 @@ contact@xtodev.fr<br>
 Vit à Montpellier, France<br>
 <br>
 Marié - 2 enfants<br>
-34 ans<br>
+35 ans<br>
 Nationalité française
 </span>
 
@@ -209,4 +209,4 @@ BTS Informatique et Réseaux pour l'Industrie et les Services techniques (IRIS)
 <hr class="hiddenhr">
 
 ### Footer {#footer}
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - Juillet 2024
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - Septembre 2024

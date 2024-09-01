@@ -20,7 +20,7 @@ contact@xtodev.fr<br>
 Lives in Montpellier, FR<br>
 <br>
 Married - 2 children<br>
-Age 34<br>
+Age 35<br>
 French nationality
 </span>
 
@@ -186,7 +186,7 @@ Apprenticeship: Final year project - in company
 
 ### Since 2020 {.date}
 Specialized training
-: Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basics of AWS (3d) via Conserto
+: Ansible (2d) via <a href="https://spherius.fr/formation/devops-ansible/" target="_blank">Spherius.fr</a> • <a href="https://www.scrum.org/user/735488" target="_blank">Professional Scrum Master I (PSM I)</a> • Basics of AWS (3d) via Conserto <br>
   Cloud Azure (5d) : [AZ-900](https://www.youtube.com/watch?v=5abffC-K40c) (Basics) |  [AZ-204](https://www.youtube.com/watch?v=jZx8PMQjobk) (Developer) | [AZ-400](https://www.youtube.com/watch?v=11KT1hPNkY4) (DevOps) via FreeCodeCamp
 
 ### 2010-2013 {.date}
@@ -208,4 +208,4 @@ BTS (BAC+2) in Computer Science and Networks for Industry and Technical Services
 <hr class="hiddenhr">
 
 ### Footer {#footer}
-Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - July 2024
+Xavier Touron -- [contact@xtodev.fr](mailto:contact@xtodev.fr) -- (+33) 7.66.65.32.68 -- <a href="https://github.com/xtodev/cv" target="_blank"><img src="./assets/github.png" height="16" width="16" style="vertical-align: middle;"></a>  <a href="https://www.linkedin.com/in/xavier-touron-084b4b73" target="_blank"><img src="./assets/linkedin.png" height="16" width="16" style="vertical-align: middle;"></a> - September 2024
